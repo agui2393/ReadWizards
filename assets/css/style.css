@@ -1,0 +1,417 @@
+/* ----- << Global Settings >> -----*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 1.0rem;
+    line-height: 1.4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*----- << Home Page Styling >>----- */
+
+.carousel-item {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+/* Header Styling */
+
+header {
+    background: var(--clr-primary-900);
+    text-align: center;
+    position: static;
+    width: 100%;
+    z-index: 999;
+    letter-spacing: 0.1rem;
+}
+
+
+/* Navigation bar Styling */
+
+.nav-item a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.searchbutton a:hover {
+    background-color: #555;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+
+span.burger-line {
+    width: 20px;
+    color: white;
+    border-bottom: 0.5px solid white;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    /* height: 50px; */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0px;
+}
+
+/* Newsletter Section Styling */
+
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: url('../images/security-79397_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.newsletter {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+/* Footer Styling */
+
+footer {
+    background-color: #090909;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+
+.flex-footer>a {
+    color: white;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 0.6rem;
+}
+
+.flex-footer>a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+.footercontent {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+/*----- << Products page styling >>----- */
+
+.title-underline {
+    border-bottom: 2px solid #000
+}
+
+.button-black {
+    background-color: #000;
+    border-color: transparent;
+}
+
+.space {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+
+/*----- << Preorder Page Styling >>----- */
+
+.preorder-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/women.jpg');
+    background-size: cover;
+    background-position: top left;
+}
+
+.personal-details {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.button-imput:hover {
+    text-decoration: none;
+    background-color: #555;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0.75rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0.75rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/*----- << Trends Page Styling >>----- */
+
+.backgroundtrends {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.trends {
+    margin-top: 20px;
+}
+
+
+/*----- << Contact Page Styling >>----- */
+
+.background-contact {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.contact-box {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    box-sizing: content-box;
+}
+
+.text-white2 {
+    color: white;
+    margin-left: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+/*----- << About us Page Styling >>----- */
+
+.text-white {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.picture-centre {
+    margin-top: 1%;
+    margin-right: 8%;
+}
+
+.shop-info {
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-times {
+    width: 100%;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.shop-times th,
+.shop-times td {
+    border: 2px solid #2d2c2c;
+    padding: 8px;
+    text-align: center;
+}
+
+
+#map-wrapper {
+    position: fixed;
+    top: 120px;
+    margin-left: 20px;
+    right: 0px;
+    width: 100%;
+    z-index: 4;
+
+}
+
+
+/*----- << Response Page Styling >>----- */
+
+.response_text {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.response_preorder {
+
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+iframe {
+    width: 90%
+}
+
+/*-------<< Responseive styling for small screen------->>*/
+
+@media only screen and (max-width: 600px) {
+
+    #newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    body {
+        min-height: auto;
+    }
+
+    main.backgroundtrends {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-holder {
+        flex-direction: column;
+    }
+
+    .shop-times {
+        width: auto;
+        margin: 0px;
+    }
+
+    .form-column {
+        flex-direction: column;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .footer-nav {
+        gap: 10px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    contact-box {
+        box-sizing: content-box;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive-center {
+        text-align: center;
+    }
+
+    .gap {
+        width: 100%;
+    }
+}
