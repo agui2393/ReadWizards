@@ -288,7 +288,6 @@ footer {
 }
 
 #boxes-challenge {
-    border: 2px solid #6610F2;
     border-radius: 6px;
     background-color: #874ae9;
     padding: 20px;
@@ -308,7 +307,7 @@ footer {
     background-color: #6610F2;
 }
 
-/*----- Styling text 1 page ----->>*/
+/*----- Styling text 1  and text 2 page ----->>*/
 
 .title-text1 {
     color: white;
@@ -354,6 +353,8 @@ footer {
     color: white;
 }
 
+
+
 @keyframes moveUpDown {
     0% {
         transform: translateY(0);
@@ -370,6 +371,119 @@ footer {
         /* Move back to original position */
     }
 }
+
+
+
+/*------- Stilying Magic Shelf page -------*/
+
+
+#border-story {
+    border: 2px solid #B10DC9;
+    border-radius: 6px;
+    background-color: white;
+    padding: 20px;
+    font-family: 'Nova cut', Times, serif;
+    text-align: center;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+    margin: 40px;
+}
+
+/*-------Styling meet wizards page-------*/
+
+.flex-round {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.round-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #874ae9;
+    padding: 40px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.round-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.margin-space {
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Nova cut', Times, serif;
+}
+
+.background-meet {
+    background-image: url('../images/background-purple.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*-------<< styling quest1 page------->>*/
+
+.background-black {
+    background-color: black;
+    display: block;
+
+}
+
+.image-quest1 {
+    width: 200px;
+    height: auto;
+}
+
+.flex-quest {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.border-quest {
+    height: 100px;
+    width: 200px;
+    background-color: #9b0da8;
+    box-shadow: 5px 6px 9px rgba(209, 70, 184, 0.425);
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-quest-question {
+    height: 100px;
+    width: 300px;
+    background-color: #9b0da8;
+    box-shadow: 5px 6px 9px rgba(209, 70, 184, 0.425);
+    border-radius: 6px;
+    color: white;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-quest:hover {}
 
 /*-------<< Responseive styling for small screen------->>*/
 
