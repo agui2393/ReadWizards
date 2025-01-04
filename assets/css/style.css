@@ -436,6 +436,19 @@ footer {
 
 /*-------<< styling quest1 page------->>*/
 
+.title-text-quest {
+    color: white;
+    font-family: 'Nova cut', Times, serif;
+    margin-top: 30px;
+    text-align: center;
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+    background-color: #2832287d;
+    box-shadow: 5px 6px 9px rgba(68, 70, 69, 0.456);
+    border-radius: 30px;
+}
+
 .background-black {
     background-color: black;
     display: block;
@@ -443,8 +456,9 @@ footer {
 }
 
 .image-quest1 {
-    width: 200px;
+    width: 150px;
     height: auto;
+    margin-top: 10px;
 }
 
 .flex-quest {
@@ -458,8 +472,8 @@ footer {
 .border-quest {
     height: 100px;
     width: 200px;
-    background-color: #9b0da8;
-    box-shadow: 5px 6px 9px rgba(209, 70, 184, 0.425);
+    background-color: #874ae9;
+    box-shadow: 5px 6px 9px rgba(180, 66, 237, 0.456);
     border-radius: 6px;
     color: white;
     padding: 30px;
@@ -470,12 +484,14 @@ footer {
 }
 
 .border-quest-question {
-    height: 100px;
-    width: 300px;
+    height: 150px;
+    width: 350px;
     background-color: #9b0da8;
     box-shadow: 5px 6px 9px rgba(209, 70, 184, 0.425);
+    border: 2px solid #874ae9;
     border-radius: 6px;
     color: white;
+    font-size: 24px;
     padding: 30px;
     position: relative;
     display: flex;
@@ -483,7 +499,9 @@ footer {
     align-items: center;
 }
 
-.border-quest:hover {}
+.border-quest:hover {
+    background-color: #9b0da8;
+}
 
 /*-------<< Responseive styling for small screen------->>*/
 
