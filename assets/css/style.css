@@ -308,6 +308,69 @@ footer {
     background-color: #6610F2;
 }
 
+/*----- Styling text 1 page ----->>*/
+
+.title-text1 {
+    color: white;
+    font-family: 'Nova cut', Times, serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.moving-image {
+    width: auto;
+    height: 350px;
+    animation: moveUpDown 3s ease-in-out infinite;
+    margin-top: 100px;
+}
+
+.background-green {
+    display: block;
+    background-image: url('../images/background-green.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-purple {
+    display: block;
+    background-image: url('../images/background-purple.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#boxes-challenge-white {
+    border: 2px solid #6610F2;
+    border-radius: 6px;
+    background-color: #874ae9;
+    padding: 40px;
+    font-family: 'Nova cut', Times, serif;
+    text-align: center;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+    margin: 100px;
+    width: 50%;
+    color: white;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+        /* Start position */
+    }
+
+    50% {
+        transform: translateY(-50px);
+        /* Move up 50px */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* Move back to original position */
+    }
+}
+
 /*-------<< Responseive styling for small screen------->>*/
 
 @media only screen and (max-width: 600px) {
