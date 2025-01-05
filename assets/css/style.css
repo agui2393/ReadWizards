@@ -55,13 +55,14 @@ header .nav-links ul li {
 header .nav-links ul li a {
     color: white;
     text-decoration: none;
+    padding: 3px;
 }
 
 header .nav-links ul li a:hover {
     cursor: pointer;
     border-radius: 5px;
     padding: 2px;
-    border: 1px solid #6610F2;
+    background-color: #682a72ed;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
 }
 
@@ -200,7 +201,6 @@ main div input {
 footer {
     background-color: #B10DC9;
     color: white;
-    padding: 1em;
     text-align: center;
     width: 100%;
     position: relative;
@@ -224,9 +224,7 @@ footer {
 
 .flex-footer>a:hover {
     cursor: pointer;
-    padding: 2px;
-    color: black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(14, 14, 14);
 }
 
 .footer-nav {
@@ -236,14 +234,18 @@ footer {
     gap: 20px;
     text-decoration: none;
     list-style-type: none;
+}
+
+.nav-item {
+    border: 1px solid transparent;
 
 }
+
 
 .nav-item:hover {
     cursor: pointer;
     border-radius: 5px;
-    padding: 2px;
-    border: 1px solid #6610F2;
+    background-color: #682a72ed;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
 }
 
