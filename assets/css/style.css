@@ -111,8 +111,8 @@ main {
 }
 
 #text-purple {
-    color: #6610F2;
-    font-family: 'nunito', Times, serif;
+    color: black;
+    font-family: 'Nova cut', Times, serif;
     margin-top: 20px;
 }
 
@@ -153,10 +153,10 @@ main {
 }
 
 main div a {
-    border: 1px solid #ebe5fc;
+    border: 1px solid transparent;
     border-radius: 6px;
-    color: #6610F2;
-    background-color: #EBE5FC;
+    color: white;
+    background-color: #874ae9;
     cursor: pointer;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
     padding: 10px 30px;
@@ -177,8 +177,9 @@ main div a:hover {
 }
 
 main div input {
-    border: 1px solid #6610F2;
+    border: 2px solid transparent;
     border-radius: 5px;
+    background-color: #b881c0;
     padding: 10px;
     text-align: center;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
@@ -194,6 +195,16 @@ main div input {
 .main-image-two {
     width: auto;
     height: 350px;
+}
+
+input::placeholder {
+    font-family: 'Nova cut', Times, serif;
+    color: white;
+}
+
+input:hover {
+    background-color: #874ae9;
+
 }
 
 /* Footer Styling */
