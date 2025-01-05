@@ -545,6 +545,11 @@ footer {
         flex-direction: column;
         display: flex;
         align-items: center;
+        gap: 0px;
+    }
+
+    header {
+        gap: 10px;
     }
 
     .flex-body-left {
@@ -552,12 +557,14 @@ footer {
         justify-content: center;
         align-items: center;
         margin-bottom: 0px;
+        width: 100%;
     }
 
     .flex-body-right {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .main-image-one {
@@ -579,7 +586,6 @@ footer {
     }
 
     .flex-footer {
-        flex-direction: column;
         gap: 10px;
     }
 
@@ -607,12 +613,32 @@ footer {
         align-items: center;
     }
 
-    /* Styling text 1 page*/
-    #boxes-challenge-white {
+    #boxes-challenge {
         width: 90%;
         margin: 20px;
     }
 
+    /* Styling text 1 page*/
+    #boxes-challenge-white {
+        width: 90%;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    /* Styling quest1 page*/
+    .title-text-quest {
+        margin: 30px;
+        height: auto;
+    }
+
+    .flex-quest {
+        flex-direction: column;
+    }
+
+    /* Styling Magic self page*/
+    #border-story {
+        margin: 20px;
+    }
 
     /* Styling meet the Wizards page*/
     .flex-round {
