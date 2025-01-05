@@ -30,6 +30,8 @@ header {
     width: 100%;
     font-family: 'nunito', Times, serif;
     box-sizing: border-box;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+
 }
 
 /* Style for the logo */
@@ -130,7 +132,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/background-green.jpg');
+    background-image: url('../images/background-green.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
