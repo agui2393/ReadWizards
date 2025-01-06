@@ -171,13 +171,13 @@ a {
 }
 
 main div a:hover {
-    background-color: #9b0da8;
+    background-color: #b881c0;
     color: #EBE5FC;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
 }
 
 main div input {
-    border: 2px solid transparent;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: #b881c0;
     padding: 10px;
