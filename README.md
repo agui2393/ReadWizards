@@ -1,10 +1,11 @@
-![HD logo](/assets/images/honeydrew-high-resolution-logo-grayscale.png)
+![HD logo](/assets/images/logo-color.png)
 
 
-# *HONEYDREW*
+# *READWIZARDS*
 
-The Honeydrew website allows visitors to explore our latest clothing collections and learn more about our brand. You can browse through stylish outfits, stay updated on new arrivals, and easily make pre-orders online. Visitors can quickly get in touch with us for customer support, inquiries
-Check out our website at the following [link](https://agui2393.github.io/HoneyDrew/)
+Welcome to Readwizards – a magical world where reading and play come together! Our website invites young adventurers to explore exciting stories and fun reading games. You can discover new reading materials and enjoy engaging activities. Join us on an adventure where every page turns into a new discovery. Parents and guardians can also easily reach out to us for support, questions, or book recommendations.
+
+Check out our website at the following [link]()
 ---
 
 ## Table of Contents
@@ -46,9 +47,9 @@ Check out our website at the following [link](https://agui2393.github.io/HoneyDr
 
 ## Target Audience
 
-HoneyDrew website is designed for a dynamic and fashion-forward audience, primarily aged 20-35. Customers will be young adults who are passionate about style, culture, and individuality. Whether they are trendsetters, creative professionals, or those who appreciate versatile, high-quality pieces, Honeydrew caters to individuals who want clothing that is both innovative and timeless.
+The Readwizards website is designed for young readers and families who believe in the power of stories and imagination. Our audience is primarily children, parents, and educators who are passionate about fostering a love for reading through play. Whether they are budding bookworms, parents seeking new ways to engage their kids with books, or teachers looking for creative educational resources, Readwizards offers a world of adventure, learning, and fun.
 
-This website is intentionally simple and clean, focusing on a seamless, intuitive experience. The design reflects the brand’s ethos impactful yet understated allowing the clothing itself to take center stage. It's a space that invites visitors to explore and connect with a fresh, contemporary take on southern Spanish traditions.
+The website’s design is colorful, interactive, and easy to navigate, making it a perfect place for children to explore. With a focus on simplicity and excitement, we offer a seamless experience that encourages curiosity and discovery. Every corner of our site is crafted to reflect our mission: making reading a magical, enjoyable experience that sparks creativity and builds a lifelong love of books.
 
 ## Visitors Goals 
 
