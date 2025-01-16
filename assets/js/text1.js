@@ -1,4 +1,10 @@
-// Variables
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+
+
+
 let currentQuestion = 0;
 let score = 0;
 let timer;
