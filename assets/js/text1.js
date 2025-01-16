@@ -6,7 +6,7 @@ let timeLeft = 30;
 
 // Questions Data
 const questions = [{
-        question: "Where was Skye exploring?",
+        question: "Can you remember where Skye was exploring?",
         answers: {
             a: "In a magic garden",
             b: "In a secret cave",
@@ -15,7 +15,7 @@ const questions = [{
         correctAnswer: "c"
     },
     {
-        question: "What did Skye find inside the cave?",
+        question: "Can you remember what Skye found inside the mysterious cave?",
         answers: {
             a: "A big treasure chest",
             b: "A big dragon",
