@@ -9,21 +9,31 @@
     border: 2px solid #6610F2;
     border-radius: 6px;
     background-color: #874ae9;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Nova cut', Times, serif;
     text-align: center;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
     color: white;
     margin: 5px;
+    margin-bottom: 10px;
 }
 
-.timer {
+#nextButton:hover {
+    background-color: #9b0da8;
+}
+
+
+#timerDisplay {
     color: white;
     padding: 20px;
     font-family: 'Nova cut', Times, serif;
     text-align: center;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
 
 }
 
@@ -33,9 +43,54 @@
     justify-content: center;
 }
 
+#feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+    background-color: black;
+    padding: 30px;
 
 
+}
 
+#gameOverPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+
+#nextGameButton,
+#tryAgainButton {
+    border: 2px solid #6610F2;
+    border-radius: 6px;
+    background-color: #874ae9;
+    padding: 10px;
+    font-family: 'Nova cut', Times, serif;
+    text-align: center;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+    color: white;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+
+#tryAgainButton:hover {
+    background-color: #9b0da8;
+
+}
+
+#nextGameButton:hover {
+    background-color: #9b0da8;
+
+}
 
 
 body {
@@ -377,6 +432,10 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .background-purple {
@@ -389,15 +448,14 @@ footer {
 
 
 #boxes-challenge-white {
-    border: 2px solid #6610F2;
     border-radius: 6px;
     background-color: #874ae9;
     padding: 40px;
     font-family: 'Nova cut', Times, serif;
+    font-size: 20px;
     text-align: center;
     box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
-    margin: 100px;
-    width: 50%;
+    margin: 50px;
     color: white;
 }
 
@@ -420,6 +478,20 @@ footer {
     }
 }
 
+#button-begin-quest {
+    border: 1px solid black;
+    border-radius: 6px;
+    color: white;
+    background-color: #B10DC9;
+    cursor: pointer;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+#button-begin-quest:hover {
+    background-color: #874ae9;
+}
 
 
 /*------- Stilying Magic Shelf page -------*/
@@ -530,22 +602,25 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .border-quest-question {
-    height: 150px;
-    width: 350px;
+    height: 180px;
+    width: 380px;
     background-color: #9b0da8;
     box-shadow: 5px 6px 9px rgba(209, 70, 184, 0.425);
     border: 2px solid #874ae9;
     border-radius: 6px;
     color: white;
     font-size: 24px;
-    padding: 30px;
+    padding: 25px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
 }
 
 .border-quest:hover {
@@ -675,6 +750,13 @@ footer {
         font-size: 20px;
     }
 
+    #gamePage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+
     /* Styling quest1 page*/
     .title-text-quest {
         margin: 30px;
@@ -683,7 +765,25 @@ footer {
 
     .flex-quest {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        gap: 5px;
+
     }
+
+    .border-quest-question {
+        width: auto;
+        height: auto;
+        text-align: center;
+
+    }
+
+    #feedback {
+        margin: 30px;
+        padding: 20px;
+    }
+
 
     /* Styling Magic self page*/
     #border-story {

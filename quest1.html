@@ -57,25 +57,31 @@
     <main class="background-green">
         <div class=>
             <div class="title-text1">
-                <h1>The Enchanted Question: Solve the Spell!</h1>
-                <h3>Read the text and answer the magical question correctly to cast the spell and unlock the magic!</h3>
+                <h1>The Enchanted Question:</h1>
+                <h4>Read the text and answer the magical questions correctly to unlock the magic!
+                </h4>
             </div>
         </div>
         <!---start page--->
         <div id="startPage" class="flex-boxes page">
             <div id="boxes-challenge-white">
-                <p>One bright afternoon, you and your friends are exploring the enchanted forest near the Wizard’s
-                    Tower. The trees here are huge, and the air feels full of magic. As you walk, you spot a glowing
-                    path hidden between the trees. Curious, you decide to follow it.
-                    The path leads you to an old, secret cave. The entrance is covered in sparkling vines, and strange
-                    symbols shine on the walls. You feel a little nervous but also excited. What could be inside?
-                    As you step deeper into the cave, you find a giant treasure chest! It’s full of shining jewels and
-                    golden coins. But there’s a problem: the chest is guarded by a huge, magical creature with glowing
-                    eyes. The creature looks powerful, and you know you can’t open the chest unless you figure out what
-                    kind of creature it is.
-                    You take a deep breath and get ready to solve the puzzle. Can you figure out what kind of creature
-                    is guarding the treasure?</p>
-                <button onclick="startGame()"
+                <p>One sunny afternoon, Skye and her friends went on an adventure in the enchanted forest near the
+                    Wizard’s Tower. The trees were tall and magical, their branches stretching high up to the sky. As
+                    Skye skipped along the path, she saw something glowing in the distance. It was a secret, sparkly
+                    trail hidden between the trees! Skye’s eyes lit up, and she couldn't wait to follow it.</p>
+                <p>The glowing path led Skye to a mysterious cave. The entrance was covered with shiny vines that seemed
+                    to sparkle like stars, and strange, colorful symbols shone on the walls. Skye felt a little nervous,
+                    but she was also super excited. What could be inside?</p>
+                <p>As she walked deeper into the cave, Skye gasped in surprise. Right in the middle of the cave was a
+                    giant treasure chest! It was full of sparkling jewels and golden coins that shimmered in the dim
+                    light. But there was a big problem: a huge, magical creature stood guard over the chest. It had
+                    glowing eyes that sparkled just like the jewels! The creature was big and strong, and Skye knew she
+                    couldn’t open the chest unless she figured out what kind of creature it was.</p>
+                <p>
+                    Skye took a deep breath and stood tall. She was ready for the challenge. Could Skye figure out what
+                    kind of creature was guarding the treasure and unlock its secrets?
+                </p>
+                <button id="button-begin-quest" onclick="startGame()"
                     aria-label="Go to complete the first challenge of Wizard adventures opens in new page">Begin
                     quest</button>
             </div>
@@ -92,29 +98,22 @@
                     <button class="border-quest" onclick="checkAnswer('c')">c</button>
                 </div>
             </div>
-            <div>
-                <div class="timer">
-                    <div id="timerDisplay">
-                        <span> Left:
-                            <span id="timer">30</span>
-                            seconds</span>
-                    </div>
-                    <div id="feedback">
-                        <p id="feedbackText"></p>
-
-                        <button id="nextButton" onclick="nextQuestion()">Next Question</button>
-                    </div>
-                </div>
-            </div>
+            <div id="timerDisplay">Time Left: <span id="timer">30</span> seconds</div>
+        </div>
+        <div id="feedback" style="display:none;">
+            <p id="feedbackText"></p>
+            <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+        </div>
+        </div>
 
 
-            <!-- Game Over Page -->
-            <div id="gameOverPage" class="page" style="display:none;">
-                <h1>Game Over!</h1>
-                <p id="finalScoreText">Your final score is: </p>
-                <button id="tryAgainButton" onclick="restartGame()" style="display:none;">Try Again</button>
-                <button id="nextGameButton" onclick="nextGame()" style="display:none;">Go to Next Game</button>
-            </div>
+        <!-- Game Over Page -->
+        <div id="gameOverPage" class="page" style="display:none;">
+            <h1>Game Over!</h1>
+            <p id="finalScoreText">Your final score is: </p>
+            <button id="tryAgainButton" onclick="restartGame()" style="display:none;">Try Again</button>
+            <button id="nextGameButton" onclick="nextGame()" style="display:none;">Go to Next Game</button>
+        </div>
     </main>
 
 

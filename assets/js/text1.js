@@ -6,31 +6,31 @@ let timeLeft = 30;
 
 // Questions Data
 const questions = [{
-        question: "Question 1",
+        question: "Where was Skye exploring?",
         answers: {
-            a: "a",
-            b: "b",
-            c: "c"
+            a: "In a magic garden",
+            b: "In a secret cave",
+            c: "In an enchanted forest"
         },
-        correctAnswer: "b"
+        correctAnswer: "c"
     },
     {
-        question: "question 2",
+        question: "What did Skye find inside the cave?",
         answers: {
-            a: "a",
-            b: "b",
-            c: "c"
-        },
-        correctAnswer: "b"
-    },
-    {
-        question: "question 3",
-        answers: {
-            a: "a",
-            b: "b",
-            c: "c"
+            a: "A big treasure chest",
+            b: "A big dragon",
+            c: "A golden crown"
         },
         correctAnswer: "a"
+    },
+    {
+        question: "What was guarding the treasure chest?",
+        answers: {
+            a: "A friendly wizard",
+            b: "A giant creature with glowing eyes",
+            c: "A talking bird"
+        },
+        correctAnswer: "b"
     }
 ];
 // Start Game 
@@ -49,7 +49,6 @@ function showQuestion() {
     answerButtons[1].innerText = `B) ${question.answers.b}`;
     answerButtons[2].innerText = `C) ${question.answers.c}`;
 
-    // Enable the buttons before every question
     answerButtons.forEach(button => button.disabled = false);
 
     document.getElementById("feedback").style.display = "none";
@@ -71,6 +70,7 @@ function startTimer() {
 
         if (timeLeft <= 0) {
             clearInterval(timer);
+            document.getElementById("gamePage").style.display = "none";
             document.getElementById("feedbackText").textContent = "Time's up!";
             document.getElementById("feedback").style.display = "flex";
             document.getElementById("nextButton").style.display = "flex";
@@ -86,7 +86,6 @@ function checkAnswer(selectedAnswer) {
 
     const answerButtons = document.querySelectorAll("#answers button");
 
-    // Disable all buttons after an answer is selected
     answerButtons.forEach(button => button.disabled = true);
 
     if (selectedAnswer === question.correctAnswer) {
@@ -96,31 +95,39 @@ function checkAnswer(selectedAnswer) {
         feedbackText.textContent = "It's not correct!";
     }
 
-    document.getElementById("feedback").style.display = "block";
-    document.getElementById("nextButton").style.display = "block";
+    document.getElementById("feedback").style.display = "flex";
+    document.getElementById("nextButton").style.display = "flex";
+    document.getElementById("gamePage").style.display = "none";
+
+
 }
 
 function nextQuestion() {
+    document.getElementById("gamePage").style.display = "flex";
+    showQuestion();
     currentQuestion++;
     if (currentQuestion < questions.length) {
         showQuestion();
     } else {
         showGameOverPage();
     }
+
 }
 
 // Game Over Function
 function showGameOverPage() {
+    clearInterval(timer);
     document.getElementById("gamePage").style.display = "none";
-    document.getElementById("gameOverPage").style.display = "block";
+    document.getElementById("feedback").style.display = "none";
+    document.getElementById("gameOverPage").style.display = "flex";
     document.getElementById("finalScoreText").innerText = `Your final score is: ${score}`;
 
     if (score < 3) {
-        document.getElementById("tryAgainButton").style.display = "block";
+        document.getElementById("tryAgainButton").style.display = "flex";
         document.getElementById("nextGameButton").style.display = "none";
     } else {
         document.getElementById("tryAgainButton").style.display = "none";
-        document.getElementById("nextGameButton").style.display = "block";
+        document.getElementById("nextGameButton").style.display = "flex";
     }
 }
 
