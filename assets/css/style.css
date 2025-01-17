@@ -823,6 +823,10 @@ footer {
         margin: 20px;
     }
 
+    .flex-image {
+        flex-direction: column;
+    }
+
     /* Styling meet the Wizards page*/
     .flex-round {
         margin-left: 0px;
