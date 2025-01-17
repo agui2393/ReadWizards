@@ -147,5 +147,5 @@ function restartGame() {
 
 // Go to Next Game Function
 function nextGame() {
-    window.location.href = "text2.html"
+    window.location.href = "quest2.html"
 }
