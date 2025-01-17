@@ -516,6 +516,12 @@ footer {
     margin: 40px;
 }
 
+.flex-image {
+    display: flex;
+    align-items: center;
+
+}
+
 /*-------Styling meet wizards page-------*/
 
 .flex-round {
