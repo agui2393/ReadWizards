@@ -444,11 +444,13 @@ footer {
 }
 
 .background-purple {
-    display: block;
+    display: flex;
     background-image: url('../images/background-purple.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -632,6 +634,24 @@ footer {
 
 .border-quest:hover {
     background-color: #9b0da8;
+}
+
+/*---------Quest2---------*/
+
+#namePage {
+    background-color: white;
+    border: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 40px;
+}
+
+#gamePage {
+    margin: 100px;
+    background-color: white;
+    padding: 40px;
 }
 
 /*-------<< Responseive styling for small screen------->>*/

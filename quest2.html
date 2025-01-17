@@ -54,15 +54,15 @@
     </header>
     <!-- Main content of the webpage -->
     <main class="background-purple">
-        <div class=>
-            <div class="title-text1">
-                <h1>Jax’s Magical Quest: Finding the Wizard Name</h1>
-                <h4>Your wizard name is the key to your magical adventure! Read the story, choose your name, and unlock
-                    your wizard powers!</h4>
 
-            </div>
+        <div class="title-text1">
+            <h1>Jax’s Magical Quest: Finding the Wizard Name</h1>
+            <h4>Your wizard name is the key to your magical adventure! Read the story, choose your name, and unlock
+                your wizard powers!</h4>
+
         </div>
-        <div class="flex-boxes">
+
+        <div id="startPage" class="flex-boxes">
             <img class="moving-image" src="assets/images/reading.png" alt="Wizard Jax reading a book">
             <div id="boxes-challenge-white">
                 <p>Jax had been training for weeks in the Wizard’s Tower, learning powerful spells and mixing potions.
@@ -89,11 +89,23 @@
             </div>
         </div>
         <!--Start Game 2-->
-        <div id="border">
+        <div id="namePage" style="display: none;">
             <p>Enter your name to cast the powers and finding your Wizard’s name!</p>
-            <input placeholder="Jax">
+            <input id="firstName" placeholder="Jax">
+            <form id="gender">
+                <label>
+                    <input type="checkbox" name="gender" value="boy"> Boy
+                </label>
+                <label>
+                    <input type="checkbox" name="gender" value="girl"> Girl
+                </label>
+            </form>
             <button id="button-cast-name" onclick="startGame()" aria-label="Go to Wizard adventures page">Start
                 spell!</button>
+        </div>
+
+        <div id="gamePage" style="display: none;">
+            <p class="game-result" id="wizardName"></p>
         </div>
     </main>
     <!-- Footer section with social media links and additional navigation links -->
