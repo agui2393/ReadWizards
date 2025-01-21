@@ -79,7 +79,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
       * Wizard Adventures: Leads to the Wizard Adventures page, where users can dive into a collection of magical stories, games, and interactive challenges that will immerse them in the enchanting world of Readwizards.
       * Magic Shelf: Leads to the Magic Shelf page, where users can discover a variety of stories to help young readers explore new worlds.
       * Meet the Wizards: Leads to the Meet the Wizards page, where users can learn about the different characters and wizards that guide them through their magical journey. This page offers details about each wizard’s unique abilities, stories, and adventures, making it easy for visitors to connect with their favorite characters.
-    - The links have animated hover effect.
+    - The links have animated with hover effect.
     - The navigation is clear and easy to understand for the user.
 
     ![NavBar desktop](documentation/nav-bar-bigscreen.png)
@@ -95,11 +95,13 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 
 + ### Footer
 
-    - Positioned at the bottom of the page contatins social media links in a new web.
+    - Positioned at the bottom of the page contatins social media icons with links that open in a new webpage. 
     - Links has been added to the different sections of the website to make easier for users to go back to the other sections without having to scroll back to the top of the website.
     - Also copyright notice has been added into the footer area.
+    - The links and icons have animated with hover effect.
 
-![Footer](documentation/footer.png)
+
+![Footer](documentation/footer-bigscreen.png)
 ---
 
 ## Website Pages
