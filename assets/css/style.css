@@ -661,6 +661,11 @@ footer {
     padding: 60px;
 }
 
+#newGameButton:hover {
+    background-color: #9b0da8;
+    color: white;
+}
+
 #gender {
     padding: 20px;
     gap: 20px;
