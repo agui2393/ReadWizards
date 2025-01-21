@@ -94,10 +94,10 @@
             <input id="firstName" placeholder="Jax">
             <form id="gender">
                 <label>
-                    <input type="checkbox" name="gender" value="boy"> Boy
+                    <input type="radio" name="gender" value="boy"> Boy
                 </label>
                 <label>
-                    <input type="checkbox" name="gender" value="girl"> Girl
+                    <input type="radio" name="gender" value="girl"> Girl
                 </label>
             </form>
             <button id="button-cast-name" onclick="startGame()" aria-label="Go to Wizard adventures page">Start
@@ -106,6 +106,7 @@
 
         <div id="gamePage" style="display: none;">
             <p class="game-result" id="wizardName"></p>
+            <button id="newGameButton" onclick="newGame()" style="display: none;">Play again!</button>
         </div>
     </main>
     <!-- Footer section with social media links and additional navigation links -->

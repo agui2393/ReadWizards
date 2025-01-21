@@ -40,4 +40,11 @@ function startGame() {
             alert('Oops! Something went wrong while fetching wizard data. Please try again later.');
             console.error('Error fetching wizard data:', error);
         });
+
+    document.getElementById("newGameButton").style.display = "block";
+
+}
+
+function newGame() {
+    window.location.href = "quest2.html"
 }
