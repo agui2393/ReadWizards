@@ -129,95 +129,86 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * The page is visually rich, featuring images of the characters that players will encounter throughout their adventures. These images bring the magical world to life, making the page visually appealing and exciting for young readers.
 
 
-![Products Page](documentation/)
+![Wizard adventures Page](documentation/)
 ---
 
-### The Enchanted Question: Solve the Spell Page
+#### The Enchanted Question: Solve the Spell Page
     
-  - This page has two iframes conected to two fashion Websites: Vogue and Glamour.
-  - Invite users to get to know more about fashion and help users to understand more about what to wear in the season.
-  - User will know what is trendy to wear without having to leave our website. 
+* The page starts with a header that includes a challenge Title and subheader with  instructions to engage users and explain the objective of the challenge.
+* The main body of the page (on the left) features a story that immerses users in the magical world, setting the stage for the challenge.
+* On the right side of the page, a picture of a character from the adventure is displayed. The character image features a floating animation created using CSS keyframes. This feature enhances the interactive experience and makes the page feel dynamic and alive.
+* A "Begin Quest" button is placed at the end of the story to allow readers to start the game once they are ready. Clicking the button triggers the startGame() function, beginning the game and guiding users into the magical adventure.
+
+![The Enchanted Question Page](documentation/)
+
+##### Quest 1 Page
+
+*  Once the function startGame() function is triggered. The story text and character image disappear, transitioning smoothly to the game content.
+*  Question box appears on the left side of the screen, presenting the first challenge.
+* In the center of the page, three answer boxes are displayed, each containing a different possible answer to the question. The answer boxes are animated with hover effects, making them interactive and visually engaging for the player.
+* A countdown timer is displayed, counting down the time the player has to choose an answer. f the timer runs out with no selection, a "Time Out" message will appear, notifying the player that time has expired.
+* If the player selects the correct answer, a positive feedback message will appear, confirming the choice and rewarding the player.
+* If the player selects an incorrect answer, an incorrect feedback message will appear, gently informing them that the answer is wrong.
+* After the feedback message (whether correct or incorrect), a "Next Question" button appears below the feedback message.
+* The game consists of 3 questions in total. Players must answer all three to complete the challenge.
+* Once the player answers all three questions, a "Game Over" message will appear on the screen.
+* Below the "Game Over" message, the player will see their final score, which is based on the number of correct answers.
+* If the player answers all three questions correctly, their score will be 3, and a "Go to the next quest" button will appear, allowing them to proceed to the next challenge.
+* If the player's score is lower than 3, a "Try Again" button will appear, inviting them to replay the challenge in order to improve their score.
 
 
-![Trends Page](documentation/)
+![Quest 1 Page Flow](documentation/)
+
+
+#### Jax’s Magical Quest: Finding the Wizard Name Page 
+* 
+* 
+* 
+
+![Jax’s Magical Quest: Finding the Wizard Name Page](documentation/)
+
+##### Quest 2 Page
+* 
+* 
+* 
+
+![Quest 2 Page Flow](documentation/)
 ---
 
-### Contact Page
+### The Magic Shelf Page
+* 
+* 
+* 
+
+
+![The Magic Shelf Page](documentation/)
+
+---
+
+### Meet the Wizards Page
     
-  - Contact details of the company have been added: Email and Telephone number for users to get in touch.
-  - Contains a contact form for users to imput their personal details and a message:
-    - All text input fields are customized.
-    - Placeholders have been added so user have an example of how to fill in the form.
-    - All inputs are set to be required to fill out.
-    - The submit button is animated on hover.
-  - The page is responsive on all common screen sizes.
-  - The submit button leads to the response page.
-  - A background picuture have been added to make it more attractive.
+* 
+* 
+* 
 
-![Contact Page](documentation/contact_page.png)
----
+![Meet the Wizards Page](documentation/)
 
-### About us Page
-    
-  - About us page has a short description of the company's philosophy.
-  - Apicture of the brand has been added to the right of the text.
-  - An iframe with the maps location has been added to the bottom right corner to make easier for users to know the shop location.
-  - Next to the iframe the Address has been added for more accesibility.
-  - Contains a table with opening times of the shop.
-
-![About us](documentation/about_us.png)
----
-
-### Pre-order Page
-
-  - This page will appear after users click on the Pre-order button on the products page.
-  - Contains a form: 
-    - Imput areas has been added for users to imput personal details and delivery details. 
-    - Dropdown box has been added to allow user to select the item they would like to buy. 
-    - Contains a submit button that lead you to a response page and a reset button to clear the form.
-  - All inputs are set to be required to fill out a exception of the text area as this is not a requirement.
-  - The page is responsive on all common screen sizes.
-
-![Pre-order Page](documentation/preorder_page.png)
----
-
-### Response Pages
-
-- Newsletter Response
-  - Response page appears after submitting the subscrtion to the newsletter.
-  - It contains the thank you message.
-  - Below the message a button will lead to back to the Home Page.
-
-  ![Newsletter Respose](documentation/newsletter_response.png)
-
-- Pre-order Form Response
-
-  - Response page appears after submitting the Pre-order form.
-  - It contains the thank you message and the promise to get in touch within 24 hours regarding your pre-order.
-  - It contains a message to inform users that orders will have to be paid before order is confirmed.
-  - Below the message a button will lead to back to the Home Page.
-
-  ![Pre-order Response](documentation/response_preorder.png)
-
-- Contact Form Response
-  - Response page appears after submitting the contact form.
-  - It contains the thank you message and the promise to get in touch within 24 hours.
-  - Below the message a button will lead to back to the Home Page.
-
-  ![Contact Response](documentation/contact_response.png)
 
 ---
 
 ## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as core structure of the site.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was applied to style and arrange the layout of the website.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) was applied to style and arrange the layout of the website.
 - [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to position elements symmetrically across the pages.
-- [Canva](https://www.canva.com/en_gb/) was used to make wireframes for the website.
+- [JS](https://www.javascript.com/) JavaScript was used to add interactivity and dynamic behavior to the website.
+- [APIs]( https://hp-api.onrender.com/api/characters) used to fetch character names from the Harry Potter films for Quest 2, providing the user with a unique wizard name.
+- [Miro](https://miro.com/) was used to create the flowchart of the website. 
+- [Figma](https://www.figma.com/) was used to make wireframes for the website.
 - [VSCode](https://code.visualstudio.com/) served as the primary code editor for writing and modifying the website's code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used to create and style navbar.
+- [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used to style the links on the footer.
 
 ---
 
@@ -225,21 +216,19 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 
 ### Process
 
-The development of the Honeydrew website  began with brainstorming and research. I explored various ideas for the website. To gather inspiration, I researched websites from established fashion brands, paying close attention to their design styles, layouts, and features. This gave me an understanding of current trends in the fashion industry and helped me pinpoint which elements might work well for Honeydrew.
+The development of the Readwizards website began with brainstorming and research focused on creating a fun, interactive platform for young readers. I explored various children’s educational and entertainment sites to gather ideas, paying attention to their design, layout, and interactive features. This research helped me identify key elements to make Readwizards visually appealing and easy to navigate.
 
-After gathering inspiration, I selected design elements and styles that I felt best aligned with the brand's identity. Honeydrew has a modern, minimalist aesthetic, with a nod to the cultural heritage of Andalusia. From the websites I reviewed, I picked the elements and styles that I thought best reflected this clean layouts, simple yet impactful features, and user-friendly navigation
+The website was designed with a colorful, magical theme that invites users to engage with stories and games. I used HTML and CSS to structure and style the pages, ensuring a clean, responsive layout using CSS Flexbox. Key animations, like floating images of wizard characters, were achieved with CSS keyframes, enhancing the whimsical feel.
 
-With these ideas in mind, I moved on to creating a wireframe. This step was crucial for visualizing the layout of the website and organizing the pages I would need. I mapped out the key pages such as the homepage, product listings, about us, and contact page and also determined which features were necessary for the site. For example, as a small startup, Honeydrew doesn’t have enough inventory to fulfil immediate orders, so I implemented a pre-order system. This system would allow customers to place orders for items that would be created specifically under their request, ensuring that production aligns with demand.
+To make the site interactive, I incorporated JavaScript for the games and challenges. JavaScript powers real-time features like question and answer games, timers, and score tracking. For example, on the Quest Challenge pages, users can select answers and receive immediate feedback, making the experience more dynamic and engaging.
 
-Once I had a clear wireframe, I started building the website using HTML and Bootstrap. These technologies allowed me to structure the site with a responsive and functional layout. Bootstrap was especially useful for making the website mobile friendly, ensuring it worked seamlessly on various screen sizes.
+Testing was a crucial part of the development process. I conducted usability testing with children and parents to refine the user experience. Feedback was also gathered from my mentor, helping to improve site navigation and ensure the interactive elements worked smoothly.
 
-After developing the basic structure, I turned to the styling of the website. I used CSS to create a minimalist design. I focused on a clean aesthetic that would allow the brand's products to stand out, with a color palette, typography, and spacing that all reflected Honeydrew’s unique identity.
+The final result is a magical, user-friendly website where children can explore stories, play games, and embark on wizardly quests, all powered by JavaScript for interactivity and CSS for stunning visual effects.
 
-With the site built and styled, the next phase was testing. I needed to make sure all features were fully functional and met the needs of the brand. This included testing the pre-order system, product pages, and contact forms. I wanted to ensure the website was not only functional but also easy to use and navigate.
 
-To make sure the website was user-friendly, I invited friends to test it and provide feedback on their experience. Their input helped me refine the site’s usability. In addition, I received valuable feedback from my Code Institute mentor through a series of meetings. One of the key recommendations was to add navigation buttons to the footer of the website. This would allow users to easily navigate the site without having to scroll too much, improving overall user experience.
 
-After incorporating all the necessary changes and completing the testing, I compiled this README file to document the design process. The final result is a website that not only meets the needs of the Honeydrew brand but also offers a seamless and enjoyable experience for users.
+![Gantt Chart](documentation/)
 
 ### Color Scheme
 
