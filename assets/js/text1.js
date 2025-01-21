@@ -3,7 +3,22 @@ function toggleMenu() {
     navLinks.classList.toggle('active');
 }
 
+window.addEventListener('DOMContentLoaded', () => {
+    const beginButton = document.getElementById('button-begin-quest');
+    beginButton.addEventListener('click', startGame);
 
+
+    const answerA = document.getElementById('answer-a');
+    const answerB = document.getElementById('answer-b');
+    const answerC = document.getElementById('answer-c');
+    answerA.addEventListener('click', () => checkAnswer('a'));
+    answerB.addEventListener('click', () => checkAnswer('b'));
+    answerC.addEventListener('click', () => checkAnswer('c'));
+
+
+    const nextButton = document.getElementById('nextButton');
+    nextButton.addEventListener('click', nextQuestion);
+});
 
 
 // Questions

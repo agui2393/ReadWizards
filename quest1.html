@@ -81,7 +81,7 @@
                     Skye took a deep breath and stood tall. She was ready for the challenge. Could Skye figure out what
                     kind of creature was guarding the treasure and unlock its secrets?
                 </p>
-                <button id="button-begin-quest" onclick="startGame()"
+                <button id="button-begin-quest"
                     aria-label="Go to complete the first challenge of Wizard adventures opens in new page">Begin
                     quest</button>
             </div>
@@ -93,16 +93,16 @@
             <div class="flex-quest">
                 <p id="questionText" class="border-quest-question">question 1</p>
                 <div id="answers">
-                    <button class="border-quest" onclick="checkAnswer('a')">a</button>
-                    <button class="border-quest" onclick="checkAnswer('b')">b</button>
-                    <button class="border-quest" onclick="checkAnswer('c')">c</button>
+                    <button class="border-quest" id="answer-a">a</button>
+                    <button class="border-quest" id="answer-b">b</button>
+                    <button class="border-quest" id="answer-c">c</button>
                 </div>
             </div>
             <div id="timerDisplay">Time Left: <span id="timer">30</span> seconds</div>
         </div>
         <div id="feedback" style="display:none;">
             <p id="feedbackText"></p>
-            <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+            <button id="nextButton">Next Question</button>
         </div>
         </div>
 
