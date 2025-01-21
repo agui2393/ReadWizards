@@ -5,12 +5,8 @@ function toggleMenu() {
 
 
 
-let currentQuestion = 0;
-let score = 0;
-let timer;
-let timeLeft = 30;
 
-// Questions Data
+// Questions
 const questions = [{
         question: "Can you remember where Skye was exploring?",
         answers: {
@@ -39,6 +35,7 @@ const questions = [{
         correctAnswer: "b"
     }
 ];
+
 // Start Game 
 function startGame() {
     document.getElementById("startPage").style.display = "none";
@@ -64,6 +61,12 @@ function showQuestion() {
 }
 
 // Timer
+
+let currentQuestion = 0;
+let score = 0;
+let timer;
+let timeLeft = 30;
+
 function startTimer() {
     timeLeft = 30;
     document.getElementById("timer").innerText = timeLeft;

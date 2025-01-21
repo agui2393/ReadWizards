@@ -47,54 +47,50 @@ Check out our website at the following [link]()
 
 ## Target Audience
 
-The Readwizards website is designed for young readers and families who believe in the power of stories and imagination. Our audience is primarily children, parents, and educators who are passionate about fostering a love for reading through play. Whether they are budding bookworms, parents seeking new ways to engage their kids with books, or teachers looking for creative educational resources, Readwizards offers a world of adventure, learning, and fun.
+The Readwizards website is designed for young readers aged 8 and upwards, as well as their families and educators. Our audience includes children who are beginning to dive into the world of books and storytelling, particularly those who are fans of magical and wizard-themed literature. Parents seeking new and engaging ways to connect their kids with books, and educators looking for creative, fun ways to foster a love for reading, will find Readwizards to be an exciting resource.
 
-The website’s design is colorful, interactive, and easy to navigate, making it a perfect place for children to explore. With a focus on simplicity and excitement, we offer a seamless experience that encourages curiosity and discovery. Every corner of our site is crafted to reflect our mission: making reading a magical, enjoyable experience that sparks creativity and builds a lifelong love of books.
+Whether they are budding bookworms enchanted by wizardry, parents searching for captivating ways to inspire a love of reading, or teachers in need of imaginative educational tools, Readwizards offers a world of adventure, learning, and fun.
+
+The website’s design is colorful, interactive, and easy to navigate, with a fun wizard theme that will delight young readers and fans of magical stories. With a focus on simplicity and excitement, we provide a seamless experience that encourages curiosity and discovery. Every corner of our site reflects our mission: making reading a magical, enjoyable experience that sparks creativity and builds a lifelong love of books.
 
 ## Visitors Goals 
 
 ### First Time Visitor Goals:
-* As a First Time Visitor, I want to quickly understand the main purpose of the site, so I can learn more about Honeydrew and what makes its clothing unique.
-* As a First Time Visitor, I want to easily navigate through the website, so I can find the clothing collections, pricing, and information about the brand.
+* As a First Time Visitor, I want to quickly understand the magical world of Readwizards, so I can discover the exciting adventures, stories, and resources available for young readers.
+
+* As a First Time Visitor, I want to easily navigate the website, so I can find interactive activities, book recommendations, and wizard-themed content that will captivate my child’s imagination.
+* As a Returning Visitor, I want to connect with Readwizards on social media, so I can engage with the brand, ask questions, and stay in the loop about the latest updates and new features.
 
 ### Returning Visitor Goals:
-* As a Returning Visitor, I want to see new arrivals and seasonal collections, so I can stay updated on the latest fashion trends.
-* As a Returning Visitor, I want to find detailed product descriptions, so I can make informed purchase decisions.
-* As a Returning Visitor, I want an easy way to contact customer support, so I can get help with sizing, orders, or returns.
-* As a Returning Visitor, I want to explore community and sustainability initiatives, so I can learn more about the brand’s values and how I can support them.
+* As a Returning Visitor, I want to see new magical stories, interactive features, and seasonal themes, so I can stay updated on the latest wizard adventures and content.
+* As a Returning Visitor, I want to access descriptions of books, games, and educational resources, so I can make informed decisions about which magical stories or activities to explore next.
+
 ### Frequent Visitor Goals:
-* As a Frequent Visitor, I want to receive updates on sales, discounts, and special promotions, so I don’t miss out on the best deals.
-* As a Frequent Visitor, I want to be able to easily contact customer service for any issues with my orders, returns, or exchanges, so I can receive prompt assistance.
+* As a Frequent Visitor, I want to join the Readwizards community on social media, so I can connect with other fans of the site, participate in discussions, and discover new magical content.
+* As a Frequent Visitor, I want to easily access the games and activities I enjoy the most, so I can keep having fun and learning with new wizard-themed challenges and adventures.
+
 
 ## Features
 
 + ### Navigation bar
     - Positioned at the top of the page.
-    - Contains navigation links on the left side:
-      * Home: leads to the home where users can see some images of the brand and can subscribe to the newsletter.
-      * Products: leads to the products page wher eusers can see all the products available to buy.
-      * Trends: leads to the trends page where users can see last trends in two of the most important magazines of the fashion industry.
-      * Contact: leads to the contact form page where users can fill out the form in order to get in touch with the company.
-      * About us: leads to the home page where users can learn about the company HONEYDREW.
+    - Contains navigation links on the right side:
+      * Home: Leads to the homepage where visitors can explore the magical world of Readwizards, view images that showcase the excitement of wizard adventures, and learn about the site’s offerings.
+      * Wizard Adventures: Leads to the Wizard Adventures page, where users can dive into a collection of magical stories, games, and interactive challenges that will immerse them in the enchanting world of Readwizards.
+      * Magic Shelf: Leads to the Magic Shelf page, where users can discover a variety of stories to help young readers explore new worlds.
+      * Meet the Wizards: Leads to the Meet the Wizards page, where users can learn about the different characters and wizards that guide them through their magical journey. This page offers details about each wizard’s unique abilities, stories, and adventures, making it easy for visitors to connect with their favorite characters.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
-    ![NavBar desktop](documentation/navbar_bigscreen.png)
+    ![NavBar desktop](documentation/nav-bar-bigscreen.png)
 
     - The navigation bar is responsive:
 
     * On tablets and phone: navigation bar turns into a hamburger menu.
-
-
-
-    ![NavBar hamburguer](documentation/navbar_hamburguer.png)
-
-
-
     * When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
 
+    ![NavBar hamburguer](documentation/nav-bar-hamburguer.png)
 
-    ![NavBar Open](documentation/navbar_ipad.png)
 
 
 + ### Footer
