@@ -3,8 +3,18 @@ function toggleMenu() {
     navLinks.classList.toggle('active');
 }
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("button-begin-quest2").addEventListener("click", nextPage);
+    document.getElementById("button-cast-name").addEventListener("click", startGame);
+    document.getElementById("newGameButton").addEventListener("click", newGame);
+});
+
+
+
 function nextPage() {
     document.getElementById("startPage").style.display = "none";
+    document.getElementById("game-page-2").style.display = "none";
     document.getElementById("namePage").style.display = "flex";
 }
 
@@ -22,10 +32,10 @@ function startGame() {
     }
 
     document.getElementById("namePage").style.display = "none";
-    document.getElementById("gamePage").style.display = "block";
+    document.getElementById("game-page-2").style.display = "block";
 
     fetch('https://hp-api.onrender.com/api/characters')
-        .then(response => response.json()) // Convert response to JSON
+        .then(response => response.json())
         .then(data => {
             const filteredCharacters = data.filter(character =>
                 userGender === "wizard" || character.gender === userGender

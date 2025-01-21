@@ -83,13 +83,13 @@
                     found his name.</p>
                 <p> Now, Jax knew it was his turn to choose. And maybe, just maybe, it’s your turn too!</p>
 
-                <button id="button-begin-quest2" onclick="nextPage()"
+                <button id="button-begin-quest2"
                     aria-label="Go to complete the second challenge of Wizard adventures opens in new page">Begin
                     quest</button>
             </div>
         </div>
         <!--Start Game 2-->
-        <div id="namePage" style="display: none;">
+        <div id="namePage" class="hide">
             <p>Enter your name to cast the powers and finding your Wizard’s name!</p>
             <input id="firstName" placeholder="Jax">
             <form id="gender">
@@ -100,13 +100,13 @@
                     <input type="radio" name="gender" value="girl"> Girl
                 </label>
             </form>
-            <button id="button-cast-name" onclick="startGame()" aria-label="Go to Wizard adventures page">Start
+            <button id="button-cast-name" aria-label="Go to Wizard adventures page">Start
                 spell!</button>
         </div>
 
-        <div id="gamePage" style="display: none;">
+        <div id="game-page-2" class="hide">
             <p class="game-result" id="wizardName"></p>
-            <button id="newGameButton" onclick="newGame()" style="display: none;">Play again!</button>
+            <button id="newGameButton">Play again!</button>
         </div>
     </main>
     <!-- Footer section with social media links and additional navigation links -->
