@@ -32,7 +32,7 @@ function startGame() {
     }
 
     document.getElementById("namePage").style.display = "none";
-    document.getElementById("game-page-2").style.display = "block";
+    document.getElementById("game-page-2").style.display = "flex";
 
     fetch('https://hp-api.onrender.com/api/characters')
         .then(response => response.json())
@@ -51,7 +51,7 @@ function startGame() {
             console.error('Error fetching wizard data:', error);
         });
 
-    document.getElementById("newGameButton").style.display = "block";
+    document.getElementById("newGameButton").style.display = "flex";
 
 }
 
