@@ -5,7 +5,7 @@
 
 Welcome to Readwizards – a magical world where reading and play come together! Our website invites young adventurers to explore exciting stories and fun reading games. You can discover new reading materials and enjoy engaging activities. Join us on an adventure where every page turns into a new discovery. Parents and guardians can also easily reach out to us for support, questions, or book recommendations.
 
-Check out our website at the following [link]()
+Check out our website at the following [link](https://agui2393.github.io/ReadWizards/)
 ---
 
 ## Table of Contents

@@ -111,7 +111,9 @@ main {
 }
 
 /*----- << Home Page Styling >>----- */
-
+.hide {
+    display: none;
+}
 
 /* Header Styling */
 
