@@ -111,16 +111,14 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 
    - Represent: 
     
-   * Showcase pictures of the company in a carrousel.
-   * Invites people to join the newsletter to keep updated with last news.
+   * The homepage introduces visitors to the magical world of Readwizards, with a brief description of the website’s purpose and features. It provides an inviting atmosphere for young readers and families to explore stories, games, and educational activities.
+   * The page offers easy to understand text about the site’s mission, emphasizing the fun, interactive experiences that await.
+   * An eye catching Play Now button is displayed, allowing visitors to immediately dive into the adventure by clicking the link to start playing games.
     
 
-   ![Home Page](documentation/homepage.png)
+   ![Home Page](documentation/home-page.png)
 
-   * The newsletter area contains and imput area to type your email (this is a requiered field).
-   * A "Subscribe" button has been added to submit your email  and will lead you to a new page with a "Thank you" message.
 
-![Newsletter](documentation/newsletter.png)
 ---
 
 ### Products Page
