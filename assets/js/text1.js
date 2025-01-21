@@ -18,6 +18,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const nextButton = document.getElementById('nextButton');
     nextButton.addEventListener('click', nextQuestion);
+
+
+    const tryAgainButton = document.getElementById('tryAgainButton');
+    tryAgainButton.addEventListener('click', restartGame);
+
+
+    const nextGameButton = document.getElementById('nextGameButton');
+    nextGameButton.addEventListener('click', nextGame);
 });
 
 
