@@ -121,24 +121,25 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 
 ---
 
-### Products Page
+### Wizard adventures Page
     
-  - The products page has 6 cards with pictures of the items available to pre-order.
-  - Heach card has name of the item, description and price of the item. 
-  - Invites people to create a pre-order with a simple click on the button at the bottom of each card.
-  - Pre-order button leads you to a new page where you can pre-oder the item.
+* The Wizard Adventures page invites visitors to embark on magical quests with two exciting challenges. Each challenge offers a unique adventure, where young readers can play as a wizard and face fun and interactive tasks.
+* Each challenge box has the name of the challengue and description.
+* Inside each challengue box a Play button is prominently displayed, each leading to a different game challenge. These games are designed to encourage children to read while playing, all within a wizard-themed world.
+* The page is visually rich, featuring images of the characters that players will encounter throughout their adventures. These images bring the magical world to life, making the page visually appealing and exciting for young readers.
 
-![Products Page](documentation/products_page.png)
+
+![Products Page](documentation/)
 ---
 
-### Trends Page
+### The Enchanted Question: Solve the Spell Page
     
   - This page has two iframes conected to two fashion Websites: Vogue and Glamour.
   - Invite users to get to know more about fashion and help users to understand more about what to wear in the season.
   - User will know what is trendy to wear without having to leave our website. 
 
 
-![Trends Page](documentation/trends-page.png)
+![Trends Page](documentation/)
 ---
 
 ### Contact Page
