@@ -16,15 +16,15 @@ window.addEventListener('DOMContentLoaded', () => {
     answerC.addEventListener('click', () => checkAnswer('c'));
 
 
-    const nextButton = document.getElementById('nextButton');
+    const nextButton = document.getElementById('next-button');
     nextButton.addEventListener('click', nextQuestion);
 
 
-    const tryAgainButton = document.getElementById('tryAgainButton');
+    const tryAgainButton = document.getElementById('try-again-button');
     tryAgainButton.addEventListener('click', restartGame);
 
 
-    const nextGameButton = document.getElementById('nextGameButton');
+    const nextGameButton = document.getElementById('next-game-button');
     nextGameButton.addEventListener('click', nextGame);
 });
 
@@ -61,14 +61,14 @@ const questions = [{
 
 // Start Game 
 function startGame() {
-    document.getElementById("startPage").style.display = "none";
-    document.getElementById("gamePage").style.display = "flex";
+    document.getElementById("start-page").style.display = "none";
+    document.getElementById("game-page").style.display = "flex";
     showQuestion();
 }
 
 function showQuestion() {
     const question = questions[currentQuestion];
-    document.getElementById("questionText").innerText = question.question;
+    document.getElementById("question-text").innerText = question.question;
 
     const answerButtons = document.querySelectorAll("#answers button");
     answerButtons[0].innerText = `A) ${question.answers.a}`;
@@ -78,7 +78,7 @@ function showQuestion() {
     answerButtons.forEach(button => button.disabled = false);
 
     document.getElementById("feedback").style.display = "none";
-    document.getElementById("nextButton").style.display = "none";
+    document.getElementById("next-button").style.display = "none";
 
     startTimer();
 }
@@ -102,17 +102,17 @@ function startTimer() {
 
         if (timeLeft <= 0) {
             clearInterval(timer);
-            document.getElementById("gamePage").style.display = "none";
-            document.getElementById("feedbackText").textContent = "Time's up!";
+            document.getElementById("game-page").style.display = "none";
+            document.getElementById("feedback-text").textContent = "Time's up!";
             document.getElementById("feedback").style.display = "flex";
-            document.getElementById("nextButton").style.display = "flex";
+            document.getElementById("next-button").style.display = "flex";
         }
     }, 1000);
 }
 
 function checkAnswer(selectedAnswer) {
     const question = questions[currentQuestion];
-    const feedbackText = document.getElementById("feedbackText");
+    const feedbackText = document.getElementById("feedback-text");
 
     clearInterval(timer);
 
@@ -128,38 +128,38 @@ function checkAnswer(selectedAnswer) {
     }
 
     document.getElementById("feedback").style.display = "flex";
-    document.getElementById("nextButton").style.display = "flex";
-    document.getElementById("gamePage").style.display = "none";
+    document.getElementById("next-button").style.display = "flex";
+    document.getElementById("game-page").style.display = "none";
 
 
 }
 
 function nextQuestion() {
-    document.getElementById("gamePage").style.display = "flex";
+    document.getElementById("game-page").style.display = "flex";
     showQuestion();
     currentQuestion++;
     if (currentQuestion < questions.length) {
         showQuestion();
     } else {
-        showGameOverPage();
+        showgame - over - page();
     }
 
 }
 
 // Game Over Function
-function showGameOverPage() {
+function showgameOverPage() {
     clearInterval(timer);
-    document.getElementById("gamePage").style.display = "none";
+    document.getElementById("game-page").style.display = "none";
     document.getElementById("feedback").style.display = "none";
-    document.getElementById("gameOverPage").style.display = "flex";
-    document.getElementById("finalScoreText").innerText = `Your final score is: ${score}`;
+    document.getElementById("c").style.display = "flex";
+    document.getElementById("final-score-text").innerText = `Your final score is: ${score}`;
 
     if (score < 3) {
-        document.getElementById("tryAgainButton").style.display = "flex";
-        document.getElementById("nextGameButton").style.display = "none";
+        document.getElementById("try-again-button").style.display = "flex";
+        document.getElementById("next-game-button").style.display = "none";
     } else {
-        document.getElementById("tryAgainButton").style.display = "none";
-        document.getElementById("nextGameButton").style.display = "flex";
+        document.getElementById("try-again-button").style.display = "none";
+        document.getElementById("next-game-button").style.display = "flex";
     }
 }
 
@@ -167,8 +167,8 @@ function showGameOverPage() {
 function restartGame() {
     score = 0;
     currentQuestion = 0;
-    document.getElementById("gameOverPage").style.display = "none";
-    document.getElementById("startPage").style.display = "flex";
+    document.getElementById("game-over-page").style.display = "none";
+    document.getElementById("start-page").style.display = "flex";
 }
 
 // Go to Next Game Function

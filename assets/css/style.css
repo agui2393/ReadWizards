@@ -5,7 +5,7 @@
 
 
 
-#nextButton {
+#next-button {
     border: 2px solid #6610F2;
     border-radius: 6px;
     background-color: #874ae9;
@@ -18,7 +18,7 @@
     margin-bottom: 10px;
 }
 
-#nextButton:hover {
+#next-button:hover {
     background-color: #9b0da8;
 }
 
@@ -37,7 +37,7 @@
 
 }
 
-#gamePage {
+#game-page {
     align-items: center;
     justify-content: center;
 }
@@ -58,7 +58,7 @@
 
 }
 
-#gameOverPage {
+#game-over-page {
     flex-direction: column;
     align-items: center;
     color: white;
@@ -69,8 +69,8 @@
     margin: 30px;
 }
 
-#nextGameButton,
-#tryAgainButton {
+#next-game-button,
+#try-again-button {
     border: 2px solid #6610F2;
     border-radius: 6px;
     background-color: #874ae9;
@@ -84,12 +84,12 @@
 }
 
 
-#tryAgainButton:hover {
+#try-again-button:hover {
     background-color: #9b0da8;
 
 }
 
-#nextGameButton:hover {
+#next-game-button:hover {
     background-color: #9b0da8;
 
 }
@@ -813,7 +813,7 @@ footer {
         font-size: 20px;
     }
 
-    #gamePage {
+    #game-page {
         display: flex;
         align-items: center;
         justify-content: center;

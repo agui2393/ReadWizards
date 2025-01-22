@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function nextPage() {
-    document.getElementById("startPage").style.display = "none";
+    document.getElementById("start-page").style.display = "none";
     document.getElementById("game-page-2").style.display = "none";
     document.getElementById("namePage").style.display = "flex";
 }
