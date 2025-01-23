@@ -141,17 +141,17 @@ function nextQuestion() {
     if (currentQuestion < questions.length) {
         showQuestion();
     } else {
-        showgame - over - page();
+        showGameOverPage();
     }
 
 }
 
 // Game Over Function
-function showgameOverPage() {
+function showGameOverPage() {
     clearInterval(timer);
     document.getElementById("game-page").style.display = "none";
     document.getElementById("feedback").style.display = "none";
-    document.getElementById("c").style.display = "flex";
+    document.getElementById("game-over-page").style.display = "flex";
     document.getElementById("final-score-text").innerText = `Your final score is: ${score}`;
 
     if (score < 3) {
