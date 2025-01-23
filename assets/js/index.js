@@ -1,7 +1,16 @@
+/* Hamburger*/
+
 document.getElementById('hamburger-icon').addEventListener('click', function () {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 });
+
+
+
+
+
+/*Meet the wizards*/
+
 
 document.getElementById('next-chapter-btn-1').addEventListener('click', nextPage);
 document.getElementById('next-chapter-btn-2').addEventListener('click', nextPage);
