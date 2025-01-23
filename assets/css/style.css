@@ -149,15 +149,13 @@ header .nav-links ul li {
 header .nav-links ul li a {
     color: white;
     text-decoration: none;
-    padding: 3px;
+    padding: 10px;
 }
 
 header .nav-links ul li a:hover {
     cursor: pointer;
     border-radius: 5px;
-    padding: 2px;
     background-color: #682a72ed;
-    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
 }
 
 .hamburger-icon {
@@ -845,6 +843,9 @@ footer {
         padding: 20px;
     }
 
+    #border {
+        padding: 10px;
+    }
 
     /* Styling Magic self page*/
     #border-story {
@@ -859,8 +860,14 @@ footer {
     .flex-round {
         margin-left: 0px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         flex-direction: column;
 
+    }
+
+    #game-page-2 {
+        margin: 20px;
+        text-align: center;
+        padding: 40px;
     }
 }
