@@ -23,12 +23,9 @@ Check out our website at the following [link](https://agui2393.github.io/ReadWiz
   - [Footer](#footer)
 6. [Website Pages](#website-pages)
   - [Home Page](#home-page)
-  - [Products Page](#products-page)
-  - [Trends Page](#trends-page)
-  - [Contact Page](#contact-page)
-  - [About us Page](#About-us-page)
-  - [Pre-order Page](#pre-order-page)
-  - [Response Pages](#response-pages)
+  - [Wizard Adventures Page](#wizard-adventures)
+  - [The Magic Shelf Page](#the-magic-shelf)
+  - [Meet The Wizards](#meet-the-wizards)
 7. [Technologies Used](#technologies-used)
 8. [Design](#design)
   - [Process](#process)
@@ -129,7 +126,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * The page is visually rich, featuring images of the characters that players will encounter throughout their adventures. These images bring the magical world to life, making the page visually appealing and exciting for young readers.
 
 
-![Wizard adventures Page](documentation/)
+![Wizard adventures Page](documentation/2-wizard-adventures.pdf)
 ---
 
 #### The Enchanted Question: Solve the Spell Page
@@ -139,7 +136,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * On the right side of the page, a picture of a character from the adventure is displayed. The character image features a floating animation created using CSS keyframes. This feature enhances the interactive experience and makes the page feel dynamic and alive.
 * A "Begin Quest" button is placed at the end of the story to allow readers to start the game once they are ready. Clicking the button triggers the startGame() function, beginning the game and guiding users into the magical adventure.
 
-![The Enchanted Question Page](documentation/)
+![The Enchanted Question Page](documentation/enchanted-question.png)
 
 ##### Quest 1 Page
 
@@ -157,7 +154,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * If the player's score is lower than 3, a "Try Again" button will appear, inviting them to replay the challenge in order to improve their score.
 
 
-![Quest 1 Page Flow](documentation/)
+![Quest 1 Page Flow](documentation/game-one-flow.png)
 
 
 #### Jax’s Magical Quest: Finding the Wizard Name Page 
@@ -165,14 +162,14 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * 
 * 
 
-![Jax’s Magical Quest: Finding the Wizard Name Page](documentation/)
+![Jax’s Magical Quest: Finding the Wizard Name Page](documentation/jaxs-quest.png)
 
 ##### Quest 2 Page
 * 
 * 
 * 
 
-![Quest 2 Page Flow](documentation/)
+![Quest 2 Page Flow](documentation/game-two-flow.png)
 ---
 
 ### The Magic Shelf Page
@@ -181,7 +178,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * 
 
 
-![The Magic Shelf Page](documentation/)
+![The Magic Shelf Page](documentation/the-magic-shelf.png)
 
 ---
 
@@ -191,7 +188,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * 
 * 
 
-![Meet the Wizards Page](documentation/)
+![Meet the Wizards Page](documentation/meet-wizards.png)
 
 
 ---
@@ -254,7 +251,7 @@ The final result is a magical, user-friendly website where children can explore 
 
 - You can view and download the wireframe in PDF format from the link below:
 
-  - [Wireframe PDF](documentation/wireframes.pdf)
+  - [Wireframe PDF](documentation/wireframe.pdf)
 
 - The wireframe serves as a blueprint for the site, ensuring that the user experience (UX) is intuitive and well-organized. It helped guide the design process, ensuring that the layout aligned with the brand's goals and user needs. Several changes were made since the creation of the wireframe to improve the user experience (UX), including the addition of bottom links to the website pages for eas
 
