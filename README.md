@@ -158,35 +158,43 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 
 
 #### Jax’s Magical Quest: Finding the Wizard Name Page 
-* 
-* 
-* 
+
+* The page starts with a header that includes a challenge Title and subheader with  instructions to engage users and explain the objective of the challenge.
+* The main body of the page (on the left) features a story that immerses users in the magical world, setting the stage for the challenge.
+* On the right side of the page, a picture of a character from the adventure is displayed. The character image features a floating animation created using CSS keyframes. This feature enhances the interactive experience and makes the page feel dynamic and alive.
+* A "Begin Quest" button is placed at the end of the story to allow readers to start the game once they are ready. Clicking the button triggers the startGame() function, beginning the game and guiding users into the magical adventure.
 
 ![Jax’s Magical Quest: Finding the Wizard Name Page](documentation/jaxs-quest.png)
 
 ##### Quest 2 Page
-* 
-* 
-* 
+
+* This page offers an interactive experience where users can receive a unique wizard name based on their input.
+* Once the function startGame() function is triggered. The story text and character image disappear, transitioning smoothly to the game content.
+* Name Input Box: The user is prompted to enter their name in a text input box. The name is a required field, and if left blank, an error message will appear, guiding the user to fill it in before proceeding.
+* Gender Selection: Users can choose their gender using a radial button, with options for "Boy" or "Girl." This helps personalize the wizard name by tailoring it to the user’s selection.
+* Submit Button: Once the user has filled in their name and selected their gender, they can click the submit button to generate their wizard name.
+* Random Wizard Name Generator: Upon submission, the page will interact with an API to pull a random wizard name based on the input and selection. The generated wizard name will be displayed to the user as a fun and personalized result.
+* Once finish the user has the option to try again by clicking on "Play again" button.
 
 ![Quest 2 Page Flow](documentation/game-two-flow.png)
 ---
 
 ### The Magic Shelf Page
-* 
-* 
-* 
 
+* The Magic Shelf page offers an immersive reading experience, where users can enjoy chapters of an ongoing story, navigating through them with ease.
+* Each chapter is displayed clearly on the page, offering a smooth and engaging reading experience. The content is laid out to keep the reader immersed in the story, with no distractions.
+* After finishing a chapter, users can click the "Next Chapter" button to move on to the following part of the story. This button is easily accessible at the bottom of the chapter, encouraging seamless navigation through the narrative.
+* Once the user reaches the final chapter, the page provides a "Return to First Chapter" button. This allows users to go back to the beginning of the story and start fresh if they wish, making the experience loopable and easy to revisit.
 
 ![The Magic Shelf Page](documentation/the-magic-shelf.png)
 
 ---
 
 ### Meet the Wizards Page
-    
-* 
-* 
-* 
+
+* The Meet the Wizards page introduces visitors to the key wizards of the Readwizards universe, providing an in-depth look at each magical character.
+* The page features two distinct pictures, one for each wizard, giving users a visual introduction to these magical figures. The images help bring the wizards to life and offer a glimpse of their personalities and magical prowess.
+* Below each image, detailed information about the wizard is provided, including their background, abilities, and key traits. This section allows visitors to learn more about the characters, their role in the story, and what makes them unique within the Readwizards world.
 
 ![Meet the Wizards Page](documentation/meet-wizards.png)
 
@@ -296,11 +304,11 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Future Improvements
 
-- Add shearch box to the navbar to make users to search easily on the website.
-- Add custom 404 page.
-- Incluce new funtionalities such a sopping basket that allows you make direct purchases in the website.
-- For each item available to purchase create and individual page with more pictures of the item adding more information of each item.
-- Improve general performance of the pages by reducing size of images.
+- Custom 404 Page: Design a unique 404 error page to improve user experience when they encounter a broken link or incorrect URL. 
+- Build the entire website in a single HTML file, simplifying the structure and potentially improving loading times. This will allow for quicker navigation while still maintaining a clean and responsive design.
+- Consolidate all JavaScript functionality into one optimized file. This will help reduce load times and improve the maintainability of the site by minimizing the number of external scripts that need to be loaded.
+- Further enhance website performance by reducing the file sizes of images without compromising quality.
+- Add more interactive elements such as animations, hover effects, and smooth transitions to make the browsing experience more engaging. 
 
 ---
 
