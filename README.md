@@ -229,31 +229,41 @@ The final result is a magical, user-friendly website where children can explore 
 
 ### Color Scheme
 
-- The website uses a black, white, and grey color scheme for a clean, modern aesthetic and a professional look.
-- Black is used for key design elements to evoke sophistication, elegance, and timelessness, reinforcing the brand's high-quality and fashionable identity.
-- White serves as the primary background color, creating a clean, minimalistic look that allows the products to stand out while promoting a sense of freshness and simplicity.
-- Grey is incorporated as a subtle accent color, adding depth and balance to the overall design without detracting from the brand's sleek, contemporary feel.
+The Readwizards website uses a vibrant and bold color palette to create an engaging, modern, and dynamic experience for visitors.
 
-![Color Scheme](documentation/color_scheme.png)
+#6610F2 (Vibrant Purple) is the primary color used throughout the site to evoke creativity, innovation, and a sense of energy. It highlights key design elements and adds a touch of excitement to the brand’s identity, making it stand out.
+
+#9B0DA8 (Deep Purple) is used for accents and calls to action, reinforcing the brand’s bold, distinctive personality. It brings a sense of sophistication and depth, encouraging visitors to explore and interact with the content.
+
+#B10DC9 (Bright Magenta) complements the purple tones and adds a playful, yet professional vibe. It’s used sparingly to draw attention to important elements, such as buttons or links, without overwhelming the design.
+
+#276D26 (Forest Green) adds a natural, grounded touch to the overall palette. This color conveys balance, growth, and trust, and it is used strategically to promote a sense of stability and harmony.
+
+#874AE9 (Soft Purple) acts as a secondary accent, softening the boldness of the primary purples. It adds warmth and highlights subtle details, contributing to the overall flow of the design while maintaining a fresh and approachable look.
+
+Together, these colors create a harmonious balance of boldness and approachability, while staying true to the Readwizards brand’s modern, professional, and creative ethos.
+
+
+![Color Scheme](documentation/color-palette.png)
 
 
 
 ### Typography
 
-- The Trebuchet MS font was used to give the Honeydrew brand a modern, clean, and approachable feel. It helps draw attention to key elements like the logo, highlights the brand's strengths, and encourages visitors to engage with the brand, whether through browsing collections or making a pre-order.
+- The Nova Cut font was selected to give the Readwizards brand a bold, modern, and dynamic look. Its clean lines and strong presence highlight key elements, like the logo, and help reinforce the brand’s personality, making it easy for visitors to connect and engage with the content.
 
-![Trebuchet MS](documentation/font.png)
+![Trebuchet MS](documentation/nova-cut.png)
 
 
 ### Wireframes
 
-- The wireframe for the Honeydrew website was designed to map out the structure and layout of key pages before development. It provides a visual representation of the website’s design elements, including navigation, content placement, and user interface (UI) components.
+- The wireframe for the Readwizards website was created to outline the structure and design of key pages before development. It provides a visual guide to the layout, navigation, and UI components, helping ensure a clear and intuitive user experience.
 
 - You can view and download the wireframe in PDF format from the link below:
 
   - [Wireframe PDF](documentation/wireframe.pdf)
 
-- The wireframe serves as a blueprint for the site, ensuring that the user experience (UX) is intuitive and well-organized. It helped guide the design process, ensuring that the layout aligned with the brand's goals and user needs. Several changes were made since the creation of the wireframe to improve the user experience (UX), including the addition of bottom links to the website pages for eas
+- Acting as a blueprint for the website, the wireframe helped shape the overall user experience (UX) and keep the design aligned with our goals and your needs. Since the wireframe was first created, I have made several updates to improve the experience, including the addition of bottom links to enhance navigation across the site.
 
 ---
 
@@ -269,18 +279,18 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
 
-  - In the [GitHub repository](https://github.com/agui2393/HoneyDrew), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/agui2393/ReadWizards.git), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://agui2393.github.io/HoneyDrew/)
+The live link can be found [here](https://agui2393.github.io/ReadWizards/)
 
 ### Local Deployment
 
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/agui2393/HoneyDrew.git`
+- `gh repo clone agui2393/ReadWizards`
 
 ---
 
