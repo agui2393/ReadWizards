@@ -267,11 +267,13 @@ Together, these colors create a harmonious balance of boldness and approachabili
 
 - The wireframe for the Readwizards website was created to outline the structure and design of key pages before development. It provides a visual guide to the layout, navigation, and UI components, helping ensure a clear and intuitive user experience.
 
-- You can view and download the wireframe in PDF format from the link below:
+- You can view and download the wireframe and flow chart in PDF format from the link below:
 
   - [Wireframe PDF](documentation/wireframe.pdf)
 
-- Acting as a blueprint for the website, the wireframe helped shape the overall user experience (UX) and keep the design aligned with our goals and your needs. Since the wireframe was first created, I have made several updates to improve the experience, including the addition of bottom links to enhance navigation across the site.
+  - [Flow chart](documentation/flow-chart.pdf)
+
+- Both acting as a blueprint for the website, they helped shape the overall user experience (UX) and keep the design aligned with our goals and your needs. Since the wireframe was first created, I have made several updates to improve the experience, including the addition of bottom links to enhance navigation across the site.
 
 ---
 
