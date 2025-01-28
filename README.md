@@ -233,7 +233,7 @@ The final result is a magical, user-friendly website where children can explore 
 
 
 
-![Gantt Chart](documentation/)
+![Gantt Chart](documentation/gantt-chart.png)
 
 ### Color Scheme
 
@@ -330,7 +330,7 @@ This image was edited with photo editor to change the colour to give it a differ
 
 
 - Images taken from [Bitmoji](https://www.bitmoji.com)
-All the character pistures on the website were made using Bitmoji website and each character was created to suit the needs of my website.
+  - All the characters pictures on the website were made using Bitmoji website and each character was created to suit the needs of my website.
 
 - Logo images created with  [Logo](https://logo.com/)
   
