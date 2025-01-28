@@ -316,36 +316,25 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ### Content
 
-- Inspiration from Bootstrap Website to create different types of navbar. 
-- Inspiraton from Youtube Channel "The Net Ninja" to create some of the parts of the website and to implement CSS. 
-- Inspiration from Level 5 course in Web Application Development on Code Institute that has realle help me to unsderstand how to create a website using CSS and HTML.
+- This project drew inspiration from various children's websites, including ClassDojo, to help guide the color scheme and layout design. Their user-friendly interfaces and vibrant, engaging visuals served as a great reference in creating an accessible and fun experience for young users.
+-  Also drew inspiration from the YouTube channel 'WEB CIFAR,' and helped me incorporating elements of their JavaScript tutorials to create a timer for the game.
+
+- Inspiration from Level 5 course in Web Application Development on Code Institute that has realle help me to unsderstand how to create a website using CSS, HTML and JS.
 
 ### Media
 
 - Images taken from [Unsplash](https://unsplash.com/)
 
-  - [1st image](https://unsplash.com/es/fotos/telefono-con-cable-negro-JYGnB9gTCls)
-  - [2nd image](https://unsplash.com/photos/person-wearing-pink-hoodie-6ZYaU4whSQA)
-  - [3rd image](https://unsplash.com/es/fotos/hombre-con-chaqueta-negra-sentado-en-la-silla-Pr9rnO7yA-k)
-  - [4th image](https://unsplash.com/es/fotos/hombre-con-camiseta-negra-de-cuello-redondo-y-pantalones-negros-saltando-en-las-escaleras-aZFc5NRtJUQ)
-  - [5th image](https://unsplash.com/es/fotos/un-hombre-parado-en-un-campo-con-una-ciudad-al-fondo-m2-j5f2HtDY)
-  - [6th image](https://images.unsplash.com/photo-1605924709451-98072c51693f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=kyle-cleveland-qzNS1UfgZ_c-unsplash.jpg;)
-  - [7th image](https://images.unsplash.com/photo-1517941823-815bea90d291?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=ethan-haddox-qpTKvwp4zx0-unsplash.jpg;)
-  - [8th image](https://images.unsplash.com/photo-1511405946472-a37e3b5ccd47?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=charlesdeluvio-Ghrv69I9mPw-unsplash.jpg;)
+  - [1st image](https://unsplash.com/es/fotos/un-fondo-verde-con-mucho-humo-e2XS7txnZps)
+This image was edited with photo editor to change the colour to give it a different look on each HTML page. 
 
 
-- Images taken from [Pixabay](https://pixabay.com/)
-
-  - [1st image](https://pixabay.com/es/photos/seguridad-camera-black-and-white-79397/)
-
-- Images taken from [Pexels](https://www.pexels.com/)
-
-  - [1st image](https://images.pexels.com/photos/4738009/pexels-photo-4738009.jpeg?cs=srgb&dl=pexels-cottonbro-4738009.jpg&fm=jpg&_gl=1*xatsqs*_ga*MTAzMjU3NjA5MS4xNzMwNDg2NjM1*_ga_8JE65Q40S6*MTczMDQ4NjYzNS4xLjEuMTczMDQ4NjcxMi4wLjAuMA..)
-  - [2nd image](https://images.pexels.com/photos/25190053/pexels-photo-25190053.jpeg?cs=srgb&dl=pexels-elchino-portrait-774941174-25190053.jpg&fm=jpg&_gl=1*xatsqs*_ga*MTAzMjU3NjA5MS4xNzMwNDg2NjM1*_ga_8JE65Q40S6*MTczMDQ4NjYzNS4xLjEuMTczMDQ4NjcxMi4wLjAuMA.)
+- Images taken from [Bitmoji](https://www.bitmoji.com)
+All the character pistures on the website were made using Bitmoji website and each character was created to suit the needs of my website.
 
 - Logo images created with  [Logo](https://logo.com/)
   
-  - [Logo 1](assets/images/honeydrew-high-resolution-logo-grayscale.png)
+  - [Logo 1](/assets/images/logo-color.png)
   - [Logo 2](assets/images/honeydrew-high-resolution-logo-grayscale-transparent.png)
 
 
@@ -353,10 +342,12 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Acknowledgments
 
-- [Lazaros Pilafas](https://github.com/LozPilafas), my husband and coding partner, for his incredible support throughout this project. Lazaros assisted me in implementing CSS, HTML  and testing, offering valuable guidance and helping to ensure the quality of the code. Beyond his technical contributions, he kept me calm and focused during the more challenging moments. I’m deeply grateful for his patience, collaboration, and constant encouragement.
+- [Lazaros Pilafas](https://github.com/LozPilafas), my husband and coding partner, for his incredible support throughout this project. Lazaros assisted me in implementing CSS, HTML, JS and testing, offering valuable guidance and helping to ensure the quality of the code. Beyond his technical contributions, he kept me calm and focused during the more challenging moments. I’m deeply grateful for his patience, collaboration, and constant encouragement.
 
 - [Julia Konovalova](https://github.com/IuliiaKonovalova), my Code Institute mentor helped me a lot with introducing me to new tools, giving me feedback about my website and helping me testing it.
 
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+
+- [Mario & Oscar]() A special thanks to Mario and Oscar, two talented and curious kids who helped test the website. They used their tech enthusiast and sharp eye for detail, providing me with invaluable feedback that helped shape the user experience. Their input made a real difference!
 
 ---
