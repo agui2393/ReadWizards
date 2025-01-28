@@ -43,7 +43,6 @@
 }
 
 #feedback {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -810,7 +809,6 @@ footer {
     }
 
     #game-page {
-        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column
@@ -845,6 +843,11 @@ footer {
 
     #border {
         padding: 10px;
+    }
+
+    #timerDisplay {
+        margin-left: auto;
+
     }
 
     /* Styling Magic self page*/
