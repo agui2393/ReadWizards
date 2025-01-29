@@ -4,11 +4,10 @@ document.getElementById('hamburger-icon').addEventListener('click', function () 
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 });
-
+/* Set up event listeners*/
 window.addEventListener('DOMContentLoaded', () => {
     const beginButton = document.getElementById('button-begin-quest');
     beginButton.addEventListener('click', startGame);
-
 
     const answerA = document.getElementById('answer-a');
     const answerB = document.getElementById('answer-b');
@@ -31,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Questions
+/* Questions & responses for the game*/
 const questions = [{
         question: "Can you remember where Skye was exploring?",
         answers: {
@@ -61,13 +60,13 @@ const questions = [{
     }
 ];
 
-// Start Game 
+/*Start Game and transition from the start page to the game page*/
 function startGame() {
     document.getElementById("start-page").style.display = "none";
     document.getElementById("game-page").style.display = "flex";
     showQuestion();
 }
-
+/*Function to display the current question and answers*/
 function showQuestion() {
     const question = questions[currentQuestion];
     document.getElementById("question-text").innerText = question.question;
@@ -76,22 +75,21 @@ function showQuestion() {
     answerButtons[0].innerText = `A) ${question.answers.a}`;
     answerButtons[1].innerText = `B) ${question.answers.b}`;
     answerButtons[2].innerText = `C) ${question.answers.c}`;
-
+    /*Enable answer buttons hide button next*/
     answerButtons.forEach(button => button.disabled = false);
-
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-button").style.display = "none";
-
+    /*Start timer*/
     startTimer();
 }
 
-// Timer
-
+/* Timer*/
 let currentQuestion = 0;
 let score = 0;
 let timer;
 let timeLeft = 30;
 
+/*Start time countdown*/
 function startTimer() {
     timeLeft = 30;
     document.getElementById("timer").innerText = timeLeft;
@@ -101,7 +99,7 @@ function startTimer() {
     timer = setInterval(function () {
         timeLeft--;
         document.getElementById("timer").innerText = timeLeft;
-
+        /* If time is up, stop the timer and show feedback*/
         if (timeLeft <= 0) {
             clearInterval(timer);
             document.getElementById("game-page").style.display = "none";
@@ -111,11 +109,11 @@ function startTimer() {
         }
     }, 1000);
 }
-
+/* Checks if answer is correcr and gives feedback*/
 function checkAnswer(selectedAnswer) {
     const question = questions[currentQuestion];
     const feedbackText = document.getElementById("feedback-text");
-
+    /*stops timer*/
     clearInterval(timer);
 
     const answerButtons = document.querySelectorAll("#answers button");
@@ -128,14 +126,14 @@ function checkAnswer(selectedAnswer) {
     } else {
         feedbackText.textContent = "It's not correct!";
     }
-
+    /*shows feedback and next button*/
     document.getElementById("feedback").style.display = "flex";
     document.getElementById("next-button").style.display = "flex";
     document.getElementById("game-page").style.display = "none";
 
 
 }
-
+/*Takes you to next question*/
 function nextQuestion() {
     document.getElementById("game-page").style.display = "flex";
     showQuestion();
@@ -148,7 +146,8 @@ function nextQuestion() {
 
 }
 
-// Game Over Function
+/* Game Over Function*/
+
 function showGameOverPage() {
     clearInterval(timer);
     document.getElementById("game-page").style.display = "none";
@@ -165,7 +164,7 @@ function showGameOverPage() {
     }
 }
 
-// Restart Game 
+/* Restarts Game */
 function restartGame() {
     score = 0;
     currentQuestion = 0;
@@ -173,7 +172,7 @@ function restartGame() {
     document.getElementById("start-page").style.display = "flex";
 }
 
-// Go to Next Game Function
+/*Takes you to next game*/
 function nextGame() {
     window.location.href = "quest2.html"
 }
