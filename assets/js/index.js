@@ -5,17 +5,14 @@ document.getElementById('hamburger-icon').addEventListener('click', function () 
     navLinks.classList.toggle('active');
 });
 
-
-
-
-
-/*Meet the wizards*/
-
+//* Add event listeners to the buttons*//
 
 document.getElementById('next-chapter-btn-1').addEventListener('click', nextPage);
 document.getElementById('next-chapter-btn-2').addEventListener('click', nextPage);
 document.getElementById('next-chapter-btn-3').addEventListener('click', nextPage);
 
+
+//* Function to navigate between chapters*//
 let currentChapter = 1;
 
 function nextPage() {
