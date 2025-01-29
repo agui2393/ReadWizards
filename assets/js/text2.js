@@ -5,21 +5,20 @@ document.getElementById('hamburger-icon').addEventListener('click', function () 
     navLinks.classList.toggle('active');
 });
 
-
+/*Event listeners*/
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("button-begin-quest2").addEventListener("click", nextPage);
     document.getElementById("button-cast-name").addEventListener("click", startGame);
     document.getElementById("new-game-button").addEventListener("click", newGame);
 });
 
-
-
+/* Function to show input page and hide text */
 function nextPage() {
     document.getElementById("start-page").style.display = "none";
     document.getElementById("game-page-2").style.display = "none";
     document.getElementById("name-page").style.display = "flex";
 }
-
+/* Function to start name after introducing USER details*/
 function startGame() {
     const userName = document.getElementById("first-name").value.trim();
     let userGender = "wizard";
@@ -27,7 +26,6 @@ function startGame() {
     if (genderCheckboxes.length > 0) {
         userGender = genderCheckboxes[0].value === "boy" ? "male" : "female";
     }
-
     if (userName === "") {
         alert("Please enter your name!");
         return;
@@ -36,6 +34,7 @@ function startGame() {
     document.getElementById("name-page").style.display = "none";
     document.getElementById("game-page-2").style.display = "flex";
 
+    /* Fetch wizard character data from an API and filter by gender and return a ramdon name*/
     fetch('https://hp-api.onrender.com/api/characters')
         .then(response => response.json())
         .then(data => {
@@ -57,6 +56,7 @@ function startGame() {
 
 }
 
+/*Redirect to the "quest2.html" page*/
 function newGame() {
     window.location.href = "quest2.html"
 }
