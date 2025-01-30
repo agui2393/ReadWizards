@@ -126,7 +126,7 @@ The website’s design is colorful, interactive, and easy to navigate, with a fu
 * The page is visually rich, featuring images of the characters that players will encounter throughout their adventures. These images bring the magical world to life, making the page visually appealing and exciting for young readers.
 
 
-![Wizard adventures Page](documentation/2-wizard-adventures.pdf)
+![Wizard adventures Page](documentation/wizard-adventures.png)
 ---
 
 #### The Enchanted Question: Solve the Spell Page

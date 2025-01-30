@@ -7,17 +7,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Safari.
 
-    - Chrome:
+  - Chrome:
 
-    ![Chrome](documentation/chrome.png)
+    ![Chrome](documentation/test-chrome.png)
 
-    - FireFox:
+  - FireFox:
 
-    ![FireFox](documentation/firefox.png)
+    ![FireFox](documentation/)
 
-    - Safari:
+  - Safari:
 
-![Brave](documentation/safari.png)
+    ![Safari](documentation/test-chrome.png)
 ---
 
 ## Responsiveness
@@ -26,19 +26,21 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Home Page:
 
-    ![Home Page](documentation/responsive_home.png)
+    ![Home Page](documentation/responsive-home.png)
 
-    - Products Page:
+    - Wizard Adventures:
 
-    ![Products Page](documentation/responsive_products.png)
+    ![Wizard Adventures](documentation/wizard-adventures-responsive.png)
 
-    - Trends Page:
+       - Quest 1 text:
 
-    ![Trends Page](documentation/responsive_trends.png)
+       ![Quest 1 text](documentation/)
 
-    - Contact Page:
+      - Quest 1 game:
 
-    ![Contact Page](documentation/responsive_contact.png)
+      ![Questions game](documentation/quest-1-game-responsiveness.png)
+      ![Response game](documentation/quest-1-response-responsiveness.png)
+      ![Game over](documentation/game-over-responsiveness.png)
 
     - About us Page:
 
