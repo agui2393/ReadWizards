@@ -1,10 +1,10 @@
-/* Hamburger*/
+// Hamburger
 
 document.getElementById('hamburger-icon').addEventListener('click', function () {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 });
-/* Set up event listeners*/
+//Add event listeners to buttons
 window.addEventListener('DOMContentLoaded', () => {
     const beginButton = document.getElementById('button-begin-quest');
     beginButton.addEventListener('click', startGame);
@@ -30,7 +30,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-/* Questions & responses for the game*/
+// Questions & responses for the quest 1
 const questions = [{
         question: "Can you remember where Skye was exploring?",
         answers: {
@@ -60,13 +60,17 @@ const questions = [{
     }
 ];
 
-/*Start Game and transition from the start page to the game page*/
+/**
+ * Starts Game and transition from the start page to the game page
+ */
 function startGame() {
     document.getElementById("start-page").style.display = "none";
     document.getElementById("game-page").style.display = "flex";
     showQuestion();
 }
-/*Function to display the current question and answers*/
+/**
+ * Displays the current question and answers
+ **/
 function showQuestion() {
     const question = questions[currentQuestion];
     document.getElementById("question-text").innerText = question.question;
@@ -75,21 +79,23 @@ function showQuestion() {
     answerButtons[0].innerText = `A) ${question.answers.a}`;
     answerButtons[1].innerText = `B) ${question.answers.b}`;
     answerButtons[2].innerText = `C) ${question.answers.c}`;
-    /*Enable answer buttons hide button next*/
+    //Hides button next & feedback
     answerButtons.forEach(button => button.disabled = false);
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-button").style.display = "none";
-    /*Start timer*/
+    //Starts timer
     startTimer();
 }
 
-/* Timer*/
+// Timer
 let currentQuestion = 0;
 let score = 0;
 let timer;
 let timeLeft = 30;
 
-/*Start time countdown*/
+/**
+ * Starts timer and counts down from 30 seconds until time is over or you select a question
+ */
 function startTimer() {
     timeLeft = 30;
     document.getElementById("timer").innerText = timeLeft;
@@ -99,7 +105,7 @@ function startTimer() {
     timer = setInterval(function () {
         timeLeft--;
         document.getElementById("timer").innerText = timeLeft;
-        /* If time is up, stop the timer and show feedback*/
+        // If time is up, stops the timer and show feedback + time´s up message
         if (timeLeft <= 0) {
             clearInterval(timer);
             document.getElementById("game-page").style.display = "none";
@@ -109,7 +115,9 @@ function startTimer() {
         }
     }, 1000);
 }
-/* Checks if answer is correcr and gives feedback*/
+/**
+ * Checks if answer is correct and gives feedback
+ */
 function checkAnswer(selectedAnswer) {
     const question = questions[currentQuestion];
     const feedbackText = document.getElementById("feedback-text");
@@ -126,14 +134,16 @@ function checkAnswer(selectedAnswer) {
     } else {
         feedbackText.textContent = "It's not correct!";
     }
-    /*shows feedback and next button*/
+    //hides game page and shows feedback and next button*/
     document.getElementById("feedback").style.display = "flex";
     document.getElementById("next-button").style.display = "flex";
     document.getElementById("game-page").style.display = "none";
 
 
 }
-/*Takes you to next question*/
+/**
+ * Takes you to next question and if no more questions triggers Game over.
+ */
 function nextQuestion() {
     document.getElementById("game-page").style.display = "flex";
     showQuestion();
@@ -146,7 +156,9 @@ function nextQuestion() {
 
 }
 
-/* Game Over Function*/
+/**
+ * Hides game page and feedback and shows you final score and try again or go to next quest button
+ */
 
 function showGameOverPage() {
     clearInterval(timer);
@@ -164,7 +176,9 @@ function showGameOverPage() {
     }
 }
 
-/* Restarts Game */
+/**
+ * Restarts Game and hides final score
+ */
 function restartGame() {
     score = 0;
     currentQuestion = 0;
@@ -172,7 +186,9 @@ function restartGame() {
     document.getElementById("start-page").style.display = "flex";
 }
 
-/*Takes you to next game*/
+/**
+ * Takes you to next game
+ */
 function nextGame() {
     window.location.href = "quest2.html"
 }
