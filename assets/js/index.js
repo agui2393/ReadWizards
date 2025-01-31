@@ -16,7 +16,7 @@ document.getElementById('next-chapter-btn-3').addEventListener('click', nextPage
 let currentChapter = 1;
 
 /**
- * 
+ * Hides one title, picture and text and shows a new one
  */
 function nextPage() {
     if (currentChapter === 1) {

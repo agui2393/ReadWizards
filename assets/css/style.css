@@ -90,6 +90,7 @@ main {
     width: 100%;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     gap: 10px;
 }
@@ -98,6 +99,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: space-around;
     margin-bottom: 40px;
     width: 50%;
     padding: 20px;
@@ -107,6 +109,7 @@ main {
 }
 
 #color-change {
+    font-size: 60px;
     color: #B10DC9;
     font-family: 'Nova cut', Times, serif;
     margin-top: 20px;
@@ -126,7 +129,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 100px;
     border-bottom: 20px;
 }
 
@@ -277,6 +280,10 @@ footer {
     font-family: 'Nova cut', Times, serif;
     margin-top: 20px;
     text-align: center;
+}
+
+#explanation-color {
+    color: black;
 }
 
 .flex-boxes {
@@ -496,6 +503,12 @@ footer {
 }
 
 .flex-image {
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+
+.flex-image-first {
     display: flex;
     align-items: center;
     background-color: antiquewhite;
@@ -511,13 +524,13 @@ footer {
 
 .flex-round {
     display: flex;
-    margin-left: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px;
     gap: 20px;
     justify-content: center;
     flex-direction: column-reverse;
     align-items: center;
+    background-color: #32185b75;
+
 }
 
 .round-container {
@@ -659,6 +672,11 @@ footer {
     padding: 60px;
 }
 
+#button-begin-quest2:hover {
+    background-color: #9b0da8;
+    color: white;
+}
+
 #new-game-button:hover {
     background-color: #9b0da8;
     color: white;
@@ -679,12 +697,14 @@ footer {
 #button-cast-name {
     box-shadow: 3px 5px 7px rgba(28, 17, 26, 0.425);
     padding: 10px;
+    color: white;
+    background-color: #9b0da8;
 
 }
 
 #button-cast-name:hover {
-    background-color: #9b0da8;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
