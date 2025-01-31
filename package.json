@@ -1,0 +1,22 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "![HD logo](/assets/images/logo-color.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agui2393/ReadWizards.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agui2393/ReadWizards/issues"
+  },
+  "homepage": "https://github.com/agui2393/ReadWizards#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
