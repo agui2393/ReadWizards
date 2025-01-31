@@ -61,13 +61,12 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Meet the Wizards](documentation/meet-respon.png)
 
-    - Response Contact:
 
 
 
 + The website was also tested for responsiveness on mobilephone devices size with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
-![Website phone size](documentation/responsive-mobile.mov)
+![Website phone size](documentation/mobile-responsive.png)
 ---
 
 ## Manual testing
