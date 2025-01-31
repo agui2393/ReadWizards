@@ -296,7 +296,7 @@ footer {
     margin: 0px;
 }
 
-#boxes-challenge {
+.boxes-challenge {
     background-color: #bd9d405c;
     padding: 20px;
     font-family: 'Nova cut', Times, serif;
