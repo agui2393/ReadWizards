@@ -34,7 +34,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Quest 1 text:
 
-    ![Quest 1 text](documentation/quest1)
+    ![Quest 1 text](documentation/quest1-responsiveness.png)
 
     - Quest 1 game:
 
@@ -46,28 +46,28 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Quest 2 text:
 
-    ![Quest 2 text](documentation/responsive_aboutus.png)
+    ![Quest 2 text](documentation/quest2-responsiveness.png)
 
     - Quest 2 game:
 
-    ![Input page](documentation/responsive_preorder.png)
-    ![Response Page](documentation/responsive_preorder.png)
+    ![Input page](documentation/ques2-input.png)
+    ![Response Page](documentation/quest2-response.png)
 
     - Magic Shelf:
 
-    ![Magic Shelf](documentation/responsive_newsletter.png)
+    ![Magic Shelf](documentation/magic-shelf-respon.png)
 
     - Meet the Wizards:
 
-    ![Meet the Wizards](documentation/responsive_response_preorders.png)
+    ![Meet the Wizards](documentation/meet-respon.png)
 
     - Response Contact:
 
-![Response Contact](documentation/responsive_response_contact.png)
+
 
 + The website was also tested for responsiveness on mobilephone devices size with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
-![Website phone size](documentation/phone_responsive.jpg)
+![Website phone size](documentation/responsive-mobile.mov)
 ---
 
 ## Manual testing
