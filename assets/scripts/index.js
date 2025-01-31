@@ -1,9 +1,5 @@
 // Hamburger
 
-const {
-    default: test
-} = require("node:test");
-
 document.getElementById('hamburger-icon').addEventListener('click', function () {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
@@ -37,4 +33,3 @@ function nextPage() {
         currentChapter = 1;
     }
 }
-module.exports = test
