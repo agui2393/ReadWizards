@@ -1,24 +1,28 @@
-/* Hamburger*/
+// Hamburger
 
 document.getElementById('hamburger-icon').addEventListener('click', function () {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 });
 
-/*Event listeners*/
+// Add event listeners to the buttons
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("button-begin-quest2").addEventListener("click", nextPage);
     document.getElementById("button-cast-name").addEventListener("click", startGame);
     document.getElementById("new-game-button").addEventListener("click", newGame);
 });
 
-/* Function to show input page and hide text */
+/**
+ * Shows input page and hide text 
+ */
 function nextPage() {
     document.getElementById("start-page").style.display = "none";
     document.getElementById("game-page-2").style.display = "none";
     document.getElementById("name-page").style.display = "flex";
 }
-/* Function to start name after introducing USER details*/
+/**
+ * After USER input details checks details correct if not introduced shows error please enter your name. Checks gender and pick a random name by genter on API
+ */
 function startGame() {
     const userName = document.getElementById("first-name").value.trim();
     let userGender = "wizard";
@@ -34,7 +38,7 @@ function startGame() {
     document.getElementById("name-page").style.display = "none";
     document.getElementById("game-page-2").style.display = "flex";
 
-    /* Fetch wizard character data from an API and filter by gender and return a ramdon name*/
+    // Fetchs wizard characters data from an API and filter by gender and return a ramdon name if a problem happens alert will pop out.
     fetch('https://hp-api.onrender.com/api/characters')
         .then(response => response.json())
         .then(data => {
@@ -56,7 +60,9 @@ function startGame() {
 
 }
 
-/*Redirect to the "quest2.html" page*/
+/**
+ * Redirects to the "quest2.html" page
+ */
 function newGame() {
     window.location.href = "quest2.html"
 }
