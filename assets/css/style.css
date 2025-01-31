@@ -898,6 +898,7 @@ explanation-color {
     /* Styling meet the Wizards page*/
     .flex-round {
         margin-left: 0px;
+        margin-right: 0px;
         margin-top: 10px;
         margin-bottom: 30px;
         flex-direction: column;
