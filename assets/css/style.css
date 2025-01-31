@@ -115,6 +115,14 @@ main {
     margin-top: 20px;
 }
 
+
+.color-change {
+    font-size: 60px;
+    color: #B10DC9;
+    font-family: 'Nova cut', Times, serif;
+    margin-top: 20px;
+}
+
 #text-purple {
     color: black;
     font-family: 'Nova cut', Times, serif;
@@ -282,7 +290,7 @@ footer {
     text-align: center;
 }
 
-.explanation-color {
+explanation-color {
     color: black;
 }
 
@@ -490,8 +498,7 @@ footer {
 
 /*------- Stilying Magic Shelf page -------*/
 
-
-#border-story {
+.border-story {
     border: 2px solid #0c0c0c;
     background-color: #f5deb3;
     font-size: 18px;
