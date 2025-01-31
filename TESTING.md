@@ -34,7 +34,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Quest 1 text:
 
-    ![Quest 1 text](documentation/)
+    ![Quest 1 text](documentation/quest1)
 
     - Quest 1 game:
 
@@ -44,21 +44,22 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Game over](documentation/game-over-responsiveness.png)
 
-    - About us Page:
+    - Quest 2 text:
 
-    ![About us Page](documentation/responsive_aboutus.png)
+    ![Quest 2 text](documentation/responsive_aboutus.png)
 
-    - Pre-oder Page:
+    - Quest 2 game:
 
-    ![Pre-oder Page](documentation/responsive_preorder.png)
+    ![Input page](documentation/responsive_preorder.png)
+    ![Response Page](documentation/responsive_preorder.png)
 
-    - Response Newsletter Page:
+    - Magic Shelf:
 
-    ![Response Newsletter Page](documentation/responsive_newsletter.png)
+    ![Magic Shelf](documentation/responsive_newsletter.png)
 
-    - Response Pre-orders Page:
+    - Meet the Wizards:
 
-    ![Response Pre-orders](documentation/responsive_response_preorders.png)
+    ![Meet the Wizards](documentation/responsive_response_preorders.png)
 
     - Response Contact:
 
