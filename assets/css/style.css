@@ -878,6 +878,12 @@ footer {
         margin: 20px;
     }
 
+
+    .flex-image-first {
+        flex-direction: column;
+
+    }
+
     .flex-image {
         flex-direction: column;
     }
