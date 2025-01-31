@@ -282,7 +282,7 @@ footer {
     text-align: center;
 }
 
-#explanation-color {
+.explanation-color {
     color: black;
 }
 
@@ -306,7 +306,7 @@ footer {
     width: 50%;
 }
 
-#title-color {
+.title-color {
     color: white;
 }
 
