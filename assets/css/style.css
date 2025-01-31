@@ -97,7 +97,7 @@ main {
 .flex-body-left {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     margin-bottom: 40px;
     width: 50%;
     padding: 20px;
@@ -122,9 +122,11 @@ main {
     position: relative;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 30px;
     border-bottom: 20px;
 }
 

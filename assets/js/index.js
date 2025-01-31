@@ -1,11 +1,11 @@
-/* Hamburger*/
+// Hamburger
 
 document.getElementById('hamburger-icon').addEventListener('click', function () {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active');
 });
 
-//* Add event listeners to the buttons*//
+// Add event listeners to the buttons
 
 document.getElementById('next-chapter-btn-1').addEventListener('click', nextPage);
 document.getElementById('next-chapter-btn-2').addEventListener('click', nextPage);
@@ -15,6 +15,9 @@ document.getElementById('next-chapter-btn-3').addEventListener('click', nextPage
 //* Function to navigate between chapters*//
 let currentChapter = 1;
 
+/**
+ * 
+ */
 function nextPage() {
     if (currentChapter === 1) {
         document.getElementById("chapter-one").style.display = "none";

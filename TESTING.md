@@ -32,15 +32,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Wizard Adventures](documentation/wizard-adventures-responsive.png)
 
-       - Quest 1 text:
+    - Quest 1 text:
 
-       ![Quest 1 text](documentation/)
+    ![Quest 1 text](documentation/)
 
-      - Quest 1 game:
+    - Quest 1 game:
 
-      ![Questions game](documentation/quest-1-game-responsiveness.png)
-      ![Response game](documentation/quest-1-response-responsiveness.png)
-      ![Game over](documentation/game-over-responsiveness.png)
+    ![Questions game](documentation/quest-1-game-responsiveness.png)
+
+    ![Response game](documentation/quest-1-response-responsiveness.png)
+
+    ![Game over](documentation/game-over-responsiveness.png)
 
     - About us Page:
 
