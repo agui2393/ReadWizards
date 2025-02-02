@@ -175,16 +175,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + ### Solved bugs
 
-- On the "Products" page, the product cards were not displaying correctly—they weren't aligning next to each other as intended. To resolve this, I applied the Bootstrap grid system, which fixed the layout and ensured the cards were properly aligned in a responsive, flexible grid.
+- The timer was not stopping after the game finished and continued to show "Time’s Up" after 30 seconds. To resolve this, I added a function that halts the timer after the final question is completed, ensuring the timer behaves correctly throughout the game.
 
-- The images on the homepage were not displaying correctly on the website due to an incorrect file path. I resolved this issue by updating the paths to point to the correct locations of the images.
-
-- The font size in the footer was changing with different screen sizes and sometimes became too small to read, as I had set the font size using the vw (viewport width) unit. To fix this, I replaced the vw unit with a more appropriate units like rem for better scalability across devices and improved readability on all screen sizes.
-
-+ ### Mistakes
-
-- I made some mistakes when committing changes initially, particularly with the use of past tense in my commit messages. As I continued working on the project, I realized the importance of using the present tense in commit messages to better align with best practices. 
-
-- Initially, I developed the habit of committing changes before thoroughly testing them. However, I now understand the importance of testing changes first to ensure they work as expected, and I've since made it a priority to test all changes before committing.
-
-- One of the mistakes I made early on was creating a new branch in the GitHub project when saving it for the first time, as I didn't fully understand how Git and GitHub worked. I now understand the importance of using the main branch for initial commits and only creating new branches when adding features or making significant changes. Going forward, I'll ensure to follow best practices by using branches effectively and keeping the main branch stable.
+- The API was returning random names instead of names filtered by gender. I’ve updated the API integration by adding a filter to allow names to be fetched specifically by gender, providing a more tailored experience.
