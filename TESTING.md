@@ -185,6 +185,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ![JSHint Validator Index JS](documentation/quest2-jshint.png)
 
+## Jest testing
+
+- I have successfully used Jest to test the functionality of the index.js file. The test ran without any errors, and all of the test cases passed as expected. At this stage, the tests for index.js have been completed, and the results are positive. However, I plan to continue expanding the testing coverage to include other JavaScript files in the future. This will include more in-depth tests for additional functionality across other parts of the application. 
+
+![Jest testing](documentation/jest-index.png)
+
+
 ## Bugs
 
 + ### Solved bugs

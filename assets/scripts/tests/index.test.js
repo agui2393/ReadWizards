@@ -1,102 +1,330 @@
-const questions = require("../index")
-
-// app.test.js
 const {
     JSDOM
 } = require('jsdom');
 
 
-let dom, document, window;
+// Setup the DOM environment before each test
+beforeAll(() => {
+    const dom = new JSDOM(`
+       <!DOCTYPE html>
+<html lang="en">
 
-beforeEach(() => {
-    // Set up the DOM and window for each test
-    dom = new JSDOM(html);
-    document = dom.window.document;
-    window = dom.window;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Explore ReadWizards, a fun and magical website where kids can discover the joy of reading, play exciting games, and solve puzzles with the help of wizard characters!">
+    <meta name="keywords"
+        content="ReadWizards, kids reading, magical adventures, fun reading games, children's puzzles, wizard characters, interactive stories, learning through play">
+    <meta name="author" content="Carlos Vidal">
+    <title>Readwizards</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Bootstrap CSS for responsive grid system and components -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link to the site's custom CSS for additional styling -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link to the icons to footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    // Mocking the global variables that your code depends on (i.e., nextPage)
-    global.document = document;
-    global.window = window;
+</head>
 
-    // Add the event listeners (You could also import your actual JS file here if needed)
-    document.getElementById('hamburger-icon').addEventListener('click', function () {
-        const navLinks = document.querySelector('.nav-links');
-        navLinks.classList.toggle('active');
-    });
+<body>
+    <!-- Header section containing the logo and navigation menu -->
+    <header>
+        <div class="logo">
+            <a aria-current="page" href="index.html" aria-label="Go to the home page">
+                <img src="assets/images/logo-no-background.png" alt="Readwizards logo white">
+            </a>
+        </div>
+        <div class="hamburger-icon" id="hamburger-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-links">
+            <ul>
+                <li>
+                    <a aria-current="page" href="index.html" aria-label="Go to the home page">Home</a>
+                </li>
+                <li>
+                    <a href="adventures.html" aria-label="Go to Wizard adventures page">Wizard adventures</a>
+                </li>
+                <li>
+                    <a aria-current="page" href="magic-shelf.html"
+                        aria-label="Go to the magic shelf page to read an adventure">The magic shelf</a>
+                </li>
+                <li>
+                    <a aria-current="page" href="meet-wizards.html"
+                        aria-label="Go to meet the wizards page to know more about characters">Meet the wizards</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content of the webpage -->
+    <main>
+        <!-- Chapter one tex -->
+        <div class="flex-image-first" id="chapter-one">
+            <div class="flex-body-left">
+                <h1 class="color-change">Chapter 1: The Mysterious Invitation</h1>
+                <img class="main-image-one" src="assets/images/paper-plane.png" alt="Wizard Skye on a paper plane">
+            </div>
+            <div>
+                <div class="border-story">
+                    <p>One morning, Jax Blaze and Skye Skates were practicing their favorite moves in
+                        the
+                        wizarding courtyard. Jax was spinning and twirling, his fiery staff sending sparks into the air
+                        with
+                        every dance step. Skye zipped by on her roller skates, leaving a sparkling trail of stardust
+                        behind
+                        her.</p>
+                    <p>Suddenly, a glowing envelope appeared in front of them. It floated down gently,
+                        landing right at Skye’s feet. She bent down and picked it up, feeling the magic buzz through her
+                        fingers.</p>
+                    <p>"It’s from the Grand Wizard of the Enchanted Grove!" Skye said, reading the
+                        letter
+                        aloud. "You are both invited to unlock the secrets of the Grove. A treasure awaits—only if you
+                        solve
+                        its magical puzzles."</p>
+                    <p>Jax’s eyes sparkled with excitement. "A treasure hunt? Count me in!" he said,
+                        twirling his staff. "Let’s dance our way to it!"
+                        Skye smiled, adjusting her skates. "And I’ll roll there with style. Let’s go, Jax!"
+                        They grabbed their gear—Jax’s magical staff and Skye’s glowing roller skates—and set off toward
+                        the
+                        Enchanted Grove, eager to uncover its mysteries.</p>
+                    <button class="next-button" id="next-chapter-btn-1">Next Chapter</button>
+                </div>
 
-    document.getElementById('next-chapter-btn-1').addEventListener('click', nextPage);
-    document.getElementById('next-chapter-btn-2').addEventListener('click', nextPage);
-    document.getElementById('next-chapter-btn-3').addEventListener('click', nextPage);
+            </div>
+        </div>
+        <!-- Chapter two text -->
+        <div class="flex-image hide" id="chapter-two">
+            <div class="flex-body-left">
+                <p class="color-change">Chapter 2: The Path to the Enchanted Grove</p>
+                <img class="main-image-one" src="assets/images/stand-reading.png" alt="Wizard Skye on a paper plane">
+            </div>
+            <div>
+                <div class="border-story">
+                    <p>Jax Blaze and Skye Skates made their way through the sparkling
+                        meadow, heading
+                        toward the Enchanted Grove. The air was filled with the scent of sweet flowers, and
+                        the trees
+                        around
+                        them shimmered in shades of gold and emerald. It was a place of magic, where the
+                        ordinary and
+                        extraordinary met.</p>
+                    <p>As they walked, Skye skated effortlessly ahead, her glowing wheels
+                        leaving a
+                        trail
+                        of glittering stardust behind her. Jax, on the other hand, was twirling his fiery
+                        staff, making
+                        the
+                        flames dance and flicker with every twist.</p>
+                    <p>“I can’t believe we’re actually going to the Enchanted Grove,” Jax
+                        said, his
+                        voice
+                        full of wonder. “I’ve heard stories about its hidden secrets. They say that only the
+                        bravest
+                        wizards
+                        can find the treasure.”</p>
+                    <p>“I’ve always loved puzzles,” Skye said with a confident smile. “I
+                        think we’re
+                        going
+                        to be great at solving them. Together, we’re unstoppable!”
+                        Just as Skye spoke, the path ahead of them began to shimmer and glow, revealing a
+                        trail of
+                        glowing
+                        stones leading into the forest.
+                    </p>
+                    <p>“That’s our path,” Skye said, skating back to Jax. “Looks like we’re
+                        going the
+                        right
+                        way!”
+                        They both stepped forward, following the glowing trail deeper into the forest. The
+                        trees seemed
+                        to
+                        whisper around them, their branches swaying gently in the wind, as if inviting them
+                        closer.
+                        Suddenly, a soft, melodic voice echoed from the trees. “To enter the Grove, you must
+                        first solve
+                        the
+                        riddle of the forest.”</p>
+                    <p>“The riddle is simple, yet tricky. Answer it correctly, and the path
+                        will open.
+                        Fail, and you’ll find yourselves lost forever.”
+                        Jax and Skye exchanged a glance. They were ready for anything.
+                        The owl’s voice rang out once more. “What flies without wings, and can bring both
+                        joy and
+                        sorrow?”
+                        Jax thought for a moment. “That’s easy,” he said confidently. “It’s time! Time flies
+                        without
+                        wings,
+                        and it can bring both happiness and sadness depending on what you do with it.”
+                        The owl’s eyes glowed brightly. “Correct,” it said, and with a flap of its wings,
+                        the trees
+                        parted,
+                        revealing the entrance to the Enchanted Grove.
+                        Skye clapped her hands. “We did it! On to the next challenge!”</p>
+
+                    <button class="next-button" id="next-chapter-btn-2">Next Chapter</button>
+                </div>
+            </div>
+        </div>
+        <!-- Chapter three text -->
+        <div class="flex-image hide" id="chapter-three">
+            <div class="flex-body-left">
+                <h1 class="color-change">Chapter 3: The Puzzle of the Enchanted Grove</h1>
+                <img class="main-image-one" src="assets/images/treasure.png" alt="Wizard Skye on a paper plane">
+            </div>
+
+            <div class="border-story">
+                <p>Jax and Skye ventured deeper into the Enchanted Grove, the air thick
+                    with magic
+                    and
+                    mystery. The trees seemed to whisper secrets as they passed, and the ground beneath
+                    their feet
+                    was
+                    soft, like walking on moss. They arrived at a stone pedestal in the clearing, bathed in
+                    an
+                    otherworldly glow. On top of the pedestal was an ancient book, its pages turning by
+                    themselves.
+                </p>
+                <p>Skye stepped forward and opened the book. A deep, rumbling voice echoed
+                    through
+                    the
+                    Grove:</p>
+                <p>“To unlock the treasure, you must solve this riddle:
+                    ‘I am something that can be both high and low.
+                    I can shine, but I don’t always glow.
+                    I’m with you every night and day.
+                    What am I, can you say?’”</p>
+                <p>The words seemed to shimmer as they floated before them. Skye frowned
+                    for a
+                    moment,
+                    her mind racing. Jax leaned in, watching her carefully.
+                    “I’ve heard this riddle before,” Skye murmured. “It’s the moon. It can be high in the
+                    sky, or
+                    low on
+                    the horizon. It shines, but not all the time. And it's always with us, night and day.”
+                </p>
+                <p>Jax’s eyes widened with excitement. “It’s the moon! You’re right!”
+                    As soon as Skye spoke the answer aloud, the pedestal’s glow intensified, and the book
+                    snapped
+                    shut
+                    with a soft thud. A hidden compartment in the pedestal opened, revealing a glowing
+                    crystal that
+                    pulsed with magical energy. The crystal shimmered brightly before them.
+                    “We did it!” Jax exclaimed, jumping with joy.</p>
+                <p>Skye smiled, feeling a wave of satisfaction. The crystal was a key, but
+                    it was
+                    also
+                    a symbol of their growing power. They’d solved the riddle, but the Grove’s mysteries
+                    weren’t
+                    over
+                    yet.
+                    The pedestal began to rise, revealing a new path leading deeper into the Grove. The air
+                    shimmered
+                    with anticipation as the two adventurers exchanged a determined glance.
+                    “Let’s go,” Skye said, her voice filled with excitement. “The treasure is waiting.”
+                    With that, they stepped forward, ready for whatever challenge lay ahead.</p>
+                <button class="next-button" id="next-chapter-btn-3">Go back to chapter one</button>
+            </div>
+        </div>
+
+    </main>
+    <!-- Footer section with social media links and additional navigation links -->
+    <footer class="footercontent">
+        <!-- Social media links -->
+        <div class="flex-footer">
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="icon"
+                aria-label="Find us on Facebook (link opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="icon"
+                aria-label="Find us on Twitter (link opens in a new tab)"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="icon"
+                aria-label="Find us on Instagram (link opens in a new tab)"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!-- Footer navigation links-->
+        <div>
+            <ul class="footer-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="index.html"
+                        aria-label="Go to the home page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="adventures.html"
+                        aria-label="Go to Wizard adventures page">Wizard adventures</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="magic-shelf.html"
+                        aria-label="Go to the magic shelf page to read an adventure">The magic shelf</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="meet-wizards.html"
+                        aria-label="Go to meet the wizards page to know more about characters">Meet the wizards</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Copyright message -->
+        <br>
+        <p class="copyright">&copy; 2024 READWIZARDS. All rights reserved.</p>
+    </footer>
+    <script src="assets/scripts/index.js"></script>
+</body>
+
+</html>
+    `);
+    global.document = dom.window.document;
+    global.window = dom.window;
+    global.HTMLElement = dom.window.HTMLElement;
+    global.HTMLButtonElement = dom.window.HTMLButtonElement;
+
+    require('../index.js');
+
+
 });
 
-afterEach(() => {
-    // Cleanup after each test (if necessary)
-    jest.clearAllMocks();
+test('Magic shelf when next chapter is clicked chapter 1 is hidden and chapter 2 is visible', () => {
+
+    const nextChapterButton = document.getElementById('next-chapter-btn-1');
+    const chapterOne = document.getElementById("chapter-one")
+    const chapterTwo = document.getElementById("chapter-two")
+    const chapterThree = document.getElementById("chapter-three")
+
+
+
+    nextChapterButton.click();
+
+    // Check that the start page is hidden and the next page is visible
+    expect(chapterOne.style.display).toBe('none');
+    expect(chapterTwo.style.display).toBe("flex")
 });
 
-function nextPage() {
-    if (currentChapter === 1) {
-        document.getElementById("chapter-one").style.display = "none";
-        document.getElementById("chapter-two").style.display = "flex";
-        currentChapter = 2;
-    } else if (currentChapter === 2) {
-        document.getElementById("chapter-two").style.display = "none";
-        document.getElementById("chapter-three").style.display = "flex";
-        currentChapter = 3;
-    } else if (currentChapter === 3) {
-        document.getElementById("chapter-three").style.display = "none";
-        document.getElementById("chapter-one").style.display = "flex";
-        currentChapter = 1;
-    }
-}
+test('Magic shelf when next chapter is clicked chapter 2 is hidden and chapter 3 is visible', () => {
 
-let currentChapter = 1;
+    const nextChapterButton = document.getElementById('next-chapter-btn-1');
+    const chapterOne = document.getElementById("chapter-one")
+    const chapterTwo = document.getElementById("chapter-two")
+    const chapterThree = document.getElementById("chapter-three")
 
-// Test Hamburger Menu Toggle
-test('hamburger icon toggles nav-links active class', () => {
-    const hamburgerIcon = document.getElementById('hamburger-icon');
-    const navLinks = document.querySelector('.nav-links');
 
-    // Initially, navLinks shouldn't have 'active' class
-    expect(navLinks.classList.contains('active')).toBe(false);
+    nextChapterButton.click();
 
-    // Simulate click on hamburger icon
-    hamburgerIcon.click();
-
-    // After click, the 'active' class should be added
-    expect(navLinks.classList.contains('active')).toBe(true);
-
-    // Simulate another click on hamburger icon
-    hamburgerIcon.click();
-
-    // After second click, the 'active' class should be removed
-    expect(navLinks.classList.contains('active')).toBe(false);
+    // Check that the start page is hidden and the next page is visible
+    expect(chapterTwo.style.display).toBe('none');
+    expect(chapterThree.style.display).toBe("flex")
 });
 
-// Test Next Chapter Button Functionality
-test('next chapter buttons work correctly', () => {
-    const nextBtn1 = document.getElementById('next-chapter-btn-1');
-    const nextBtn2 = document.getElementById('next-chapter-btn-2');
-    const nextBtn3 = document.getElementById('next-chapter-btn-3');
+test('Magic shelf when next chapter is clicked chapter 3 is hidden and chapter 1 is visible', () => {
 
-    // Test that chapter-one is initially visible
-    expect(document.getElementById('chapter-one').style.display).toBe('flex');
-    expect(document.getElementById('chapter-two').style.display).toBe('none');
-    expect(document.getElementById('chapter-three').style.display).toBe('none');
+    const nextChapterButton = document.getElementById('next-chapter-btn-1');
+    const chapterOne = document.getElementById("chapter-one")
+    const chapterTwo = document.getElementById("chapter-two")
+    const chapterThree = document.getElementById("chapter-three")
 
-    // Simulate clicking on next chapter buttons in order
-    nextBtn1.click();
-    expect(document.getElementById('chapter-one').style.display).toBe('none');
-    expect(document.getElementById('chapter-two').style.display).toBe('flex');
-    expect(document.getElementById('chapter-three').style.display).toBe('none');
 
-    nextBtn2.click();
-    expect(document.getElementById('chapter-one').style.display).toBe('none');
-    expect(document.getElementById('chapter-two').style.display).toBe('none');
-    expect(document.getElementById('chapter-three').style.display).toBe('flex');
+    nextChapterButton.click();
 
-    nextBtn3.click();
-    expect(document.getElementById('chapter-one').style.display).toBe('flex');
-    expect(document.getElementById('chapter-two').style.display).toBe('none');
-    expect(document.getElementById('chapter-three').style.display).toBe('none');
+    // Check that the start page is hidden and the next page is visible
+    expect(chapterThree.style.display).toBe('none');
+    expect(chapterOne.style.display).toBe("flex")
 });
