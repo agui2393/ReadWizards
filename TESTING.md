@@ -127,60 +127,44 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Home Page HTML Validator](documentation/index_validatorw3c.png)
+    ![Home Page HTML Validator](documentation/validator-home.png)
 
-- Products Page
-
-  - No errors or warnings were found when passing through the official W3C validator.
-
-    ![Products Page HTML Validator](documentation/products_validatorw3c.png)
-
-- Trends Page
+- Wizard adventures Page
 
   - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Trends Page HTML Validator](documentation/trends_validatorw3c.png)
+    ![Wizard adventures Page HTML Validator](documentation/validator-adventures.png)
 
-- Contact Page
-
-  - No errors or warnings were found when passing through the official W3C validator.
-
-    ![ Contact Page HTML Validator](documentation/validator_contactw3c.png)
-
-- About us Page
+- Quest 1 Page
 
   - No errors or warnings were found when passing through the official W3C validator.
 
-    ![About us HTML Validator](documentation/aboutus_validatorw3c.png)
+    ![Quest 1 HTML Validator](documentation/validator-quest1.png)
 
-- Pre-order Page
-
-  - No errors or warnings were found when passing through the official W3C validator.
-
-    ![Pre-order HTML Validator](documentation/preorder-validatorw3c.png)
-
-- Response Newsletter Page
+- Quest 2 Page
 
   - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Newsletter HTML Validator](documentation/newsletter_response_validatorw3c.png)
+    ![ Quest 2 Page HTML Validator](documentation/validator-quest2.png)
 
-- Response Pre-order Page
-
-  - No errors or warnings were found when passing through the official W3C validator.
-
-    ![Response Pre-order HTML Validator](documentation/preorder-validatorw3c.png)
-
-- Response Contact Page
+- Magic Shelf Page
 
   - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Contact HTML Validator](documentation/contact_response_validatorw3c.png)
+    ![Magic Shelf HTML Validator](documentation/validator-shelf.png)
+
+- Meet Wizards Page
+
+  - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Meet Wizards HTML Validator](documentation/validator-meet.png)
+
+
 
 + ### CSS
   No errors or warnings were found when passing through the official W3C validator.
 
-  ![CSS HTML Validator](documentation/css_validatorw3c.png)
+  ![CSS HTML Validator](documentation/validator-css.png)
 
 + ### LightHouse report
 
