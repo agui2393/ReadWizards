@@ -190,5 +190,5 @@ function restartGame() {
  * Takes you to next game
  */
 function nextGame() {
-    window.location.href = "quest2.html"
+    window.location.href = "quest2.html";
 }

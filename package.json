@@ -18,6 +18,7 @@
   "homepage": "https://github.com/agui2393/ReadWizards#readme",
   "devDependencies": {
     "jest": "^29.7.0",
+    "jsdom": "^26.0.0",
     "jsdom-global": "^3.0.2"
   }
 }

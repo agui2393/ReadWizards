@@ -170,6 +170,20 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ![Lighthouse Report](documentation/meet-lighthouse.png)
 
+## JS
+- No errors were found when testing the code with JSHint. Some warnings appear due to the use of keywords that are part of ECMAScript 6 (ES6), which JSHint does not recognize by default. These warnings are not critical and do not affect the functionality of the code.
+
+- Index:
+
+![JSHint Validator Index JS](documentation/index-jshint.png)
+
+- Text 1:
+
+![JSHint Validator Index JS](documentation/quest1-jshint.png)
+
+- Text 2:
+
+![JSHint Validator Index JS](documentation/quest2-jshint.png)
 
 ## Bugs
 

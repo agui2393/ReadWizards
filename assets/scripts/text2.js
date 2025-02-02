@@ -64,5 +64,16 @@ function startGame() {
  * Redirects to the "quest2.html" page
  */
 function newGame() {
-    window.location.href = "quest2.html"
+    var link = GenerateNewGameLink();
+
+    window.location.href = link;
+}
+
+/**
+ * functions
+ */
+
+function GenerateNewGameLink() {
+
+    return "quest2.html";
 }
