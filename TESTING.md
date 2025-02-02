@@ -13,7 +13,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   - FireFox:
 
-    ![FireFox](documentation/)
+    ![FireFox](documentation/mozilla.png)
 
   - Safari:
 
@@ -155,19 +155,20 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + ### LightHouse report
 
-- Using Lighthouse in DevTools, I confirmed that the website is accessible and that the chosen colors and fonts are legible. However, a performance issue was identified, primarily due to the use of large images and the implementation of Bootstrap, which can impact load times. To address this, I plan to optimize images by compressing them and using responsive image techniques, such as the srcset attribute, to ensure faster loading. Additionally, I will explore replacing certain Bootstrap components with custom, lightweight solutions to improve overall performance. This will be part of my future improvements.
+- After conducting a thorough Lighthouse audit using DevTools, I’m happy to report that Readwizards meets accessibility standards, and the selected colors and fonts are legible and user-friendly. However, there is a performance bottleneck primarily caused by large image files which can affect page load times. To improve performance, I’ll be optimizing the website by compressing images and implementing responsive image techniques 
 
-![Lighthouse Report](documentation/lighthouse_report1.png)
-
-
-- The "Trends" & "About us" pages in Lighthouse showed a decrease in the Best Practices score due to the external websites embedded within the iframes using cookies. To address this issue, we could check if the iframe content can be served without cookies, or if the external website offers a cookie-free version for embedding.
-
-![Lighthouse Report](documentation/lighthouse_report2.png)
+![Lighthouse Report](documentation/home-lighthouse.png)
 
 
-- The response pages performed excellently across all areas, with the Lighthouse report showing strong results in key performance metrics such as accessibility, SEO, and best practices. There were no significant issues identified, and the pages passed all critical tests with high scores. This indicates a smooth user experience and optimized performance.
+![Lighthouse Report](documentation/adventures-lighthouse.png)
 
-  ![Lighthouse Report](documentation/lighthouse_report3.png)
+  ![Lighthouse Report](documentation/quest1-lighthouse.png)
+
+  ![Lighthouse Report](documentation/quest2-lighthoouse.png)
+
+![Lighthouse Report](documentation/shelf-lighthouse.png)
+
+![Lighthouse Report](documentation/meet-lighthouse.png)
 
 
 ## Bugs
