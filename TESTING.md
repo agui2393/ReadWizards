@@ -17,7 +17,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   - Safari:
 
-    ![Safari](documentation/test-chrome.png)
+    ![Safari](documentation/safari.png)
 ---
 
 ## Responsiveness
@@ -77,45 +77,32 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | --- | --- | --- | --- | --- | --- |
 | Navbar | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
-| Products | Click on the "Products" link | The user is redirected to the products page | Yes | Yes | - |
-| Trends | Click on the "Trends" link | The user is redirected to the trends page | Yes | Yes | - |
-| Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
-| About us | Click on the "About us" link | The user is redirected to the about us page | Yes | Yes | - |
+| Wizard Adventures | Click on the "Wizard Adventures" link | The user is redirected to the Wizard Adventures page | Yes | Yes | - |
+| The magic shelf | Click on "The magic shelf" link | The user is redirected to The magic shelf page | Yes | Yes | - |
+| Meet the wizards | Click on "Meet the wizards" link | The user is redirected to Meet the wizards page | Yes | Yes | - |
 | Footer | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
-| Products | Click on the "Products" link | The user is redirected to the products page | Yes | Yes | - |
-| Trends | Click on the "Trends" link | The user is redirected to the trends page | Yes | Yes | - |
-| Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
-| About us | Click on the "About us" link | The user is redirected to the about us page | Yes | Yes | - |
+| Wizard Adventures | Click on the "Wizard Adventures" link | The user is redirected to the Wizard Adventures page | Yes | Yes | - |
+| The magic shelf | Click on "The magic shelf" link | The user is redirected to The magic shelf page | Yes | Yes | - |
+| Meet the wizards | Click on "Meet the wizards" link | The user is redirected to Meet the wizards page | Yes | Yes | - |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
 | Home page | | | | | |
-| Your email imput | Enter email | The email is entered | Yes | Yes |  If user doesn't enter the email, the error message appears |
-| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
-| Products page | | | | | |
-| "Submit" button | Click on the "Pre-order" button | The user is redirected to the Preorder page | Yes | Yes | - |
-| Trends page | | | | | |
-| iframe | Open trends page | Iframe should show Vogue website | Yes | Yes | - |
-| iframe| Open trend page | Iframe should show Glamour website | Yes | Yes | -|
-| Pre-order page | | | | | |
-| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Second name input | Enter the second name | The second name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Address input | Enter the Address | The Address is entered | Yes | Yes | If user doesn't enter the Address, the error message appears |
-| Postcode input | Enter the Postcode | The Postcode is entered | Yes | Yes | If user doesn't enter the Postcode, the error message appears |
-| Country input | Enter the Country | The Country is entered | Yes | Yes | If user doesn't enter the Country, the error message appears |
-| Dropdown box | Choose one of the options | Option selected | Yes | Yes | If user doesn't choose an option, the error message appears |
-| Text area | Enter text | text entered | Yes | Yes | - |
-| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
-| "Reset" button | Click on the "reset" button | Form is cleared | Yes | Yes | - |
-| Contact page | | | | | |
-| Full name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Text area | Enter text | text entered | Yes | Yes |  If user doesn't enter the first name, the error message appears |
-| "Send your message" button | Click on the "Send your message" button | The user is redirected to the response page | Yes | Yes | - |
-| About us page | | | | | |
-| iframe | Open about us page | Iframe should show gppgle maps| Yes | Yes | - |
+| "Play" button | Click on the "Play" button | The user is redirected to the Wizard adventures page | Yes | Yes | - |
+| Wizard adventures | | | | | |
+| "Play" button | Click on the "Play" button | The user is redirected to the Quest 1 page | Yes | Yes | - |
+| "Play" button | Click on the "Play" button | The user is redirected to the Quest 2 page | Yes | Yes | - |
+| Quest 1 page | | | | | |
+| "Begin quest" button | Click on the "Begin quest" button | Trigger the start game fuction and game will start | Yes | Yes | - |
+| Quest 2 page | | | | | |
+| "Begin quest" button | Click on the "Begin quest" button | Trigger the funtion and hides text and shows box | Yes | Yes | - |
+| Input box | Enter name | Name entered | Yes | Yes | If user doesn't enter the name, the error message appears |
+| "Start spell" button | Click on the "Start spell" button | Trigger the funtion start game and will return a wizard name | Yes | Yes | - |
+| "Play again" button | Click on the "Play again" button | Will return you to the begining of the game| Yes | Yes | - |
+| The magic shelf | | | | | |
+| "Next Chapter" button | Click on the "Next Chapter" button | Trigger the start game fuction and game will start | Yes | Yes | - |
+| "Go back to chapter one" button | Click on the "Go back to chapter one" button | Takes you back to first chapter| Yes | Yes | - |
 
 
 
