@@ -235,25 +235,23 @@ The final result is a magical, user-friendly website where children can explore 
 
 ![Gantt Chart](documentation/gantt-chart.png)
 
-### Color Scheme
+### Colour Scheme
 
-The Readwizards website uses a vibrant and bold color palette to create an engaging, modern, and dynamic experience for visitors.
+The Readwizards website uses a vibrant and bold colour palette to create an engaging, modern, and dynamic experience for visitors.
 
-#6610F2 (Vibrant Purple) is the primary color used throughout the site to evoke creativity, innovation, and a sense of energy. It highlights key design elements and adds a touch of excitement to the brand’s identity, making it stand out.
+#6610F2 (Vibrant Purple) is the primary colour used throughout the site to evoke creativity, innovation, and a sense of energy. It highlights key design elements and adds a touch of excitement to the brand’s identity, making it stand out.
 
 #9B0DA8 (Deep Purple) is used for accents and calls to action, reinforcing the brand’s bold, distinctive personality. It brings a sense of sophistication and depth, encouraging visitors to explore and interact with the content.
 
 #B10DC9 (Bright Magenta) complements the purple tones and adds a playful, yet professional vibe. It’s used sparingly to draw attention to important elements, such as buttons or links, without overwhelming the design.
 
-#276D26 (Forest Green) adds a natural, grounded touch to the overall palette. This color conveys balance, growth, and trust, and it is used strategically to promote a sense of stability and harmony.
+#276D26 (Forest Green) adds a natural, grounded touch to the overall palette. This colour conveys balance, growth, and trust, and it is used strategically to promote a sense of stability and harmony.
 
 #874AE9 (Soft Purple) acts as a secondary accent, softening the boldness of the primary purples. It adds warmth and highlights subtle details, contributing to the overall flow of the design while maintaining a fresh and approachable look.
 
-Together, these colors create a harmonious balance of boldness and approachability, while staying true to the Readwizards brand’s modern, professional, and creative ethos.
+Together, these colours create a harmonious balance of boldness and approachability, while staying true to the Readwizards brand’s modern, professional, and creative ethos.
 
-
-![Color Scheme](documentation/color-palette.png)
-
+![Colour Scheme](documentation/color-palette.png)
 
 
 ### Typography
@@ -265,11 +263,11 @@ Together, these colors create a harmonious balance of boldness and approachabili
 
 ### Wireframes
 
-- The wireframe for the Readwizards website was created to outline the structure and design of key pages before development. It provides a visual guide to the layout, navigation, and UI components, helping ensure a clear and intuitive user experience.
+- The wireframe for the Readwizards website was created to outline the structure and design of key pages before development. I used Figma to create a real representation of what the website will looks like. It provides a visual guide to the layout, navigation, and UI components, helping ensure a clear and intuitive user experience.
 
 - You can view and download the wireframe and flow chart in PDF format from the link below:
 
-  - [Wireframe PDF](documentation/wireframe.pdf)
+  - [Wireframe PDF](documentation/figma_wireframe.pdf)
 
   - [Flow chart](documentation/flow-chart.pdf)
 
