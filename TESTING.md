@@ -71,6 +71,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ## Manual testing
 
+For testing my website, I used manual testing to ensure all features function as expected. I manually interacted with the website, testing different elements, input fields, and links to identify any issues or bugs. This approach helped verify the overall user experience and catch any visual or functional problems that automated tools might have missed.
+
 + The functionality of the links in the website was checked as well by different users. Please, see table below for testing results:
 
 | Feature | Action | Expected result | Tested | Passed | Comments |
@@ -106,7 +108,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
 
-## Validator testing
+## Automated testing
+
+For automated testing of my website, I used tools like W3C Validator, Lighthouse, and JSHint.
+
+W3C Validator helped ensure my website's HTML and CSS comply with web standards by automatically detecting errors and warnings.
+
+Lighthouse was used to assess my website's performance, accessibility, SEO, and best practices. It provided detailed reports and actionable insights to optimise the user experience.
+
+JSHint automatically checked my JavaScript for potential errors, style issues, and best practices, helping improve the quality and consistency of the code.
+
+These tools allowed for efficient and thorough testing, saving time while ensuring my website met modern web standards and delivered a smooth experience.
 
 + ### HTML
 
