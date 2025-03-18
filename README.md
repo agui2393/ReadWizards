@@ -288,7 +288,17 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
 
   - In the [GitHub repository](https://github.com/agui2393/ReadWizards.git), navigate to the Settings tab 
+
+  ![settings](documentation/settings_click.png)
+
+  - From the setting tab select Pages
+
+  ![Pages](documentation/pages_click.png)
+
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+
+    ![Branch](documentation/main_click.png)
+
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://agui2393.github.io/ReadWizards/)
@@ -296,6 +306,13 @@ The live link can be found [here](https://agui2393.github.io/ReadWizards/)
 ### Local Deployment
 
 In order to make a local copy of this project, you can clone it.
+
+In the [GitHub repository](https://github.com/agui2393/ReadWizards.git) click on code and copy the code.
+
+  ![code](documentation/code_click.png)
+
+  ![link](documentation/clone_click.png)
+
 In your IDE Terminal, type the following command to clone my repository:
 
 - `gh repo clone agui2393/ReadWizards`
